@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,#mymodal{ 
+    background-color: rgba(246, 252, 251, 0.364);
+    font-family: "Open Sans", sans-serif;
+    width: 1400px;
+    height: 800px;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+.shopping{
+    
+    width: 42.9%;
+    height: 40rem;
+    position: relative;
+    margin-top: 4.2em;
+    margin-left: 4.1em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+    
+}
+.header-shopping{
+  
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+  }
+  .cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom:1em;
+    margin-top: 1em;
+  }
+  .cart-row {
+    display: flex;
+    height: 11em;
+  }
+  .cart-item {
+    width: 60%;
+  }
+  .cart-price ,
+  .cart-item-title {
+    color: #333;
+    margin-left: 2em;
+    font-size: 1em;
+    opacity: 80%;
+  }
+  .cart-price{
+    margin-left: 0;
+  }
+  .cart-quantity {
+    width: 35%;
+  }
+  
+  
+  
+  .cart-item-image {
+    width: 7em;
+    height: auto;
+    border-radius: 0.6em;
+  }
+  
+  .btn-danger {
+    cursor: pointer;
+    outline: none;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    position: absolute;
+    right: 1em;
+    
+  }
+  
+  
+  .btn-danger:hover {
+  }
+  
+  .cart-quantity-input {
+    height: 2em;
+    width: 3em;
+    border-radius: 0.4em;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 0;
+  }
+  .cart-row:last-child {
+    border-bottom: 1px solid black;
+  }
+  
+  .cart-row:last-child .cart-column {
+    border: none;
+  }
+  
+  .cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+  }
+ .footer-shopping {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2em;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    
+  }
+  
+ .footer-shopping>:not(:first-child) {
+    margin-left: .25rem;
+  }
+  .btn-primary {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    
+  }
+  .btn {
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 2px solid #bbbbba;
+    opacity:80%;
+    border-radius: 50px;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: all .2s ease-in-out;
+  }
+.footer-shopping > button{
+    width: 7rem;
+    height: 4rem;
+}
+#myModal{
+    display: flex;
+    background-color: #ffffff;
+}
+
+.card{
+  background-color: #31394d;
+  width: 25.7%;
+  height: auto;
+  margin: 3em 0em;
+  border-radius:10px ;
+}
+.address{
+  background-color: #31394d;
+  width: 25.7%;
+  height: auto;
+  margin: 3em 0em;
+  border-radius:10px ;
+  margin-right: 2em;
+
+}
+.header2{
+  color:#ffffff;
+}
+
+.blockstate{
+  width: 50%;
+  height: auto;
+}
+
+.state-city{
+  display: flex;
+}
+.blockcity{
+  width: 50%;
+  height: auto;
+}
+.header-address{
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.body-address{
+  margin-top: 3em;
+  margin-left: 2em;
+}
+
+.body-card label,
+.body-address label{
+  width: 90%;
+  color:#bbbbba;
+  font-size: 1em;
+}
+.body-card select,
+.body-address select{
+  background-color: transparent;
+  color: #eee;
+  border: 0;
+}
+.body-card input,
+.body-address input{
+  width: 80%;
+  background-color: transparent;
+  border: 0;
+  color:#eee;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+select{
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  width: 70%;
+}
+.header-card{
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.text{
+  display: flex;
+}
+.cvv{
+  display: flex;
+  
+}
+.body-card .image img{
+  width: 17em;
+  height: auto;
+  opacity: 50%;
+  margin: 2.3em 2em;
+}
+.cvv select{
+  margin: 0 1em; 
+  border-bottom:1px solid #bbbbba ;
+}
+.body-card form{
+  margin-left: 2em;
+}
+.cvv{
+  margin-top: 0.6em;
+}
+.body-card select{
+  margin-left: 0;
+}
