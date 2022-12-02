@@ -2357,4 +2357,11 @@ margin-left: 0;
   width: 415px;
   height: 315px;
 }
+.info > .address {
+  width:  16em;
+}
+.cart > a:hover{
+  color:#cda45e;
+}
+
 

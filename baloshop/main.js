@@ -36,7 +36,7 @@ btn_menu.addEventListener("click", function () {
 var remove_cart = document.getElementsByClassName("btn-danger");
 for (var i = 0; i <= remove_cart.length; i++) {
   var button = remove_cart[i]
-  button.addEventListener("click", function () {
+  button.addEventListener("click", function (){
     var button_remove = event.target
     button_remove.parentElement.parentElement.remove()
   })
@@ -48,13 +48,15 @@ function updatecart() {
   var total = 0;
   for (var i = 0; i < cart_rows.length; i++) {
     var cart_row = cart_rows[i]
-    var price_item = cart_row.getElementsByClassName("cart-price ")[0]
+    var price_item = cart_row.getElementsByClassName("cart-price")[0]
     var quantity_item = cart_row.getElementsByClassName("cart-quantity-input")[0]
     var price = parseFloat(price_item.innerText)// chuyển một chuổi string sang number để tính tổng tiền.
     var quantity = quantity_item.value // lấy giá trị trong thẻ input
     total = total + (price * quantity)
   }
   document.getElementsByClassName("cart-total-price")[0].innerText = total + 'VNĐ'
+  
+  document.getElementsByClassName("cart-total-price")[1].innerText = total + 'VNĐ'
   // Thay đổi text = total trong .cart-total-price. Chỉ có một .cart-total-price nên mình sử dụng [0].
 }
 // thay đổi số lượng sản phẩm
@@ -77,8 +79,8 @@ for (var i = 0; i < add_cart.length; i++) {
 
     var button = event.target;
     var product = button.parentElement.parentElement;
-    var img = product.parentElement.getElementsByClassName("img-prd")[0].src
-    var title = product.getElementsByClassName("content-product-h3")[0].innerText
+    var img = product.parentElement.getElementsByClassName("img-fluid")[0].src
+    var title = product.getElementsByClassName("portfolio-lightbox")[0].innerText
     var price = product.getElementsByClassName("price")[0].innerText
     addItemToCart(title, price, img)
     // Khi thêm sản phẩm vào giỏ hàng thì sẽ hiển thị modal

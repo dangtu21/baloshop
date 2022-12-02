@@ -11,7 +11,7 @@
   <!--icon-->
   <link rel="stylesheet" href="./assets/font/themify-icons-font (1)/themify-icons/themify-icons.css">
   <link rel="stylesheet" href="./assets/css/style1.css">
-  <link rel="stylesheet" href="./assets/css/giohang.css">
+
 
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -104,8 +104,9 @@
         <i class="fa fa-shopping-basket" aria-hidden="true"></i>
         Giỏ Hàng
       </button>
-  </header><!-- End Header -->        
-        <div class="modal1" >
+     <!-- <div id="myModal" class="modal">
+        
+        <div class="modal-content" style="flex-direction: none">
           <div class="shopping">
             <div class="header-shopping">
                 <h2 class="header1">SHOPPING CART</h2>
@@ -163,11 +164,12 @@
             </div>
             </div>
             <div class="footer-shopping">
-                <button type="button" class="btn btn-primary1 order">
+                <button type="button" class="btn btn-primary order">
                     <strong>Subtotal:<br/></strong>
                     <span class="cart-total-price"></span>
                 </button>
             </div>
+            <script src="./main.js"></script>
           </div>
           <div class="address">
             <div class="header-address">
@@ -214,7 +216,7 @@
 
             </div>
           </div>
-          <div class="card1">
+          <div class="card">
             <div class="header-card">
                 <h2 class="header2">Card Dentails</h2>
             </div>
@@ -258,7 +260,339 @@
             <div class="footer-card">
 
             </div>
-          </div>         
+          </div>
+          <span class="close">
+            <i class="ti-close"></i>
+          </span>          
         </div>
-  
-  </body>
+      </div>
+    </div>
+-->
+    <script src="./main.js"></script>
+  </header><!-- End Header -->
+  <div id="nav">
+      <div class="headerNav">
+        <div class="header2">   
+          <h3 class="trangchu">Trang chu</h3>
+            <div class="timkiem">
+              <label for="search">Hiển thị 1–24 của 91 kết quả</label>
+              <select id="search" name="state">
+                <option value="volvo">Thứ tự theo giá: cao - thấp</option>
+                <option value="saab">Thứ tự theo giá: thấp - cao</option>
+                <option value="fiat" selected>Mới nhất</option>
+                <option value="audi">Thứ tự mức độ phổ biến </option>
+            </select>
+            </div>
+        </div>  
+        <div class="header3">
+          
+          
+        </div>
+      </div>
+      <div id="center">
+        <div class="balo">
+          <h6 class="header-title">DANH MỤC</h6>
+          <br/>
+        <ul class="nav2">
+          <li>
+            <a href="">Balo</a>
+            
+            <button class="tog">
+              <i class="ti-angle-down"></i>
+            </button>
+            <span class="count">(88)</span>
+            <ul id=nav1>
+              <li>
+                <a href="">Balo Du Lich-Phuot</a>
+              </li>
+              <li>
+                <a href="">Balo Hoc Sinh</a>
+              </li>
+              <li>
+                <a href="">Balo Laptop</a>
+              </li>
+              <li>
+                <a href="">Balo Linh</a>
+              </li>
+              <li>
+                <a href="">Balo Mặt Quai</a>
+              </li>
+              <li>
+                <a href="">Balo Nam</a>
+              </li>
+              <li>
+                <a href="">Balo Nữ</a>
+              </li>
+              <li>
+                <a href="">Balo Thể Thao</a>
+              </li>
+              <li>
+                <a href="">Balo Thời Trang</a>
+              </li>
+              <li>
+                <a href="">Balo Trẻ Em</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a>
+              Phụ Kiện
+            </a>
+            <button class="tog">
+              <i class="ti-angle-down"></i>
+            </button>
+            <span class="count">(88)</span>
+            <ul class="nav4">
+              <li>
+                <a href="">Clutch</a>
+              </li>
+              <li>
+                <a href="">Móc Khóa</a>
+              </li>
+              <li>
+                <a href="">Túi Chéo-Túi Bao Tử</a>
+              </li>
+              <li>
+                <a href="">Ví Nam</a>
+              </li>
+              <li>
+                <a href="">Ví nữ</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="">SALE OFF 50%</a>
+          </li>
+          <li>
+            <a>
+              Túi Xách
+            </a>
+            <button class="tog">
+              <i class="ti-angle-down"></i>
+            </button>
+            <span class="count">(88)</span>
+          </li>
+          <li>
+            <a>
+              Uncategorized
+            </a>
+          </li>
+        </ul>
+        <h4 class="header-title">THƯƠNG HIỆU</h4>
+        <br/>
+        <ul class="thuonghieu">
+          <li>
+            <a href="">Marc Jacobs</a>
+          </li>
+          <li>
+            <a href="">Octopus</a>
+          </li>
+          <li>
+            <a href="">Samsonite</a>
+          </li>
+          <li>
+            <a href="">Sandqvist</a>
+          </li>
+          <li>
+            <a href="">Supreme</a>
+          </li>
+          <li>
+            <a href="">The North Face</a>
+          </li>
+          <li>
+            <a href="">5.11 Tactical</a>
+          </li>
+          <li>
+            <a href="">Adidas</a>
+          </li>
+          <li>
+            <a href="">Burton</a>
+          </li>
+          <li>
+            <a href="">Carhartt Wip</a>
+          </li>
+          <li>
+            <a href="">Coach</a>
+          </li>
+          <li>
+            <a href="">Fjallraven</a>
+          </li>
+          <li>
+            <a href="">Nike</a>
+          </li>
+          <li>
+            <a href="">Puma</a>
+          </li>
+          <li>
+            <a href="">Vans</a>
+          </li>
+        </ul>
+        </div>
+        <div class="cart2">
+          <p>Balo Zone – Cửa hàng balo chính hãng hàng đầu Việt Nam –  Phân phối các thương hiêu nổi tiếng như <b>Superdry,
+            Fjallvaven, Vans, Adidas, Nike, Carhartt Wip, Timerbland, Puma, Under Amrour , Burton, </b>The North Face, Herschel …</p>
+          <div id="cart1">
+        <div class="cart-item">
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/balo/balo5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"></a>
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>
+                  
+              </div>
+            </div>
+          </div>
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>  
+              </div>
+            </div>
+          </div>
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>  
+              </div>
+            </div>
+          </div>
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>  
+              </div>
+            </div>
+          </div>
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>  
+              </div>
+            </div>
+          </div>
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>  
+              </div>
+            </div>
+          </div>
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>  
+              </div>
+            </div>
+          </div>
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>  
+              </div>
+            </div>
+          </div>
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>  
+              </div>
+            </div>
+          </div>
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>  
+              </div>
+            </div>
+          </div>
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>  
+              </div>
+            </div>
+          </div>
+          <div class="cart-row">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/balo/balo5.jpg" class="img-fluid" alt="" width="415px" height="315px">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                <a href="" title="More Details" class="cart-title-item">
+                  Balo zone
+                </a>
+                <br/>
+                <b class="cart-price">150$</b>  
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>

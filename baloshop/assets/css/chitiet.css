@@ -1,0 +1,136 @@
+/**
+* Template Name: Restaurantly - v3.9.1
+* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #0c0b09;
+    color: #fff;
+  }
+  
+  a {
+    color: #cda45e;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #d9ba85;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+  
+  .title{
+    margin-top: 160px;
+    
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #5c5c5a;
+
+  }
+  .title > a{
+    text-decoration: none;
+    color: #5c5c5a;
+
+    
+  }
+  #photo{
+    width: 50%;
+    
+  }
+  #photo > img{
+    width: 100%;
+  }
+  #chitiet{
+    width: 50%;
+    margin: 2em;
+  }
+  .is-divider {
+    height: 3px;
+    display: block;
+    background-color: rgba(0,0,0,.1);
+    margin: 2em 0 1em;
+    width: 100%;
+    max-width: 30px;
+}
+  #chitiet > h1{
+    font-size: 30px;
+  }
+  #chitiet > .cart {
+    display: flex;
+    margin: 2em 0 ;
+  }
+  #noidung{
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  #content{
+    width: 100%;
+    display: flex;
+    
+  }
+ .title a:hover {
+    color: #000;
+  }
+  .cart > button {
+    margin-left: 3em;
+    border: 1px solid #bbbbba;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    padding:0.5em 2em;
+    width: auto;
+  }
+  .quantity{
+    margin: 0.5em;
+  }
+  #quantity_6387668eae1bd{
+    width: 4em;
+  }
+  .quantity > input{
+    padding:0.2em 0.6em;
+  }
+  .lydo {
+    list-style: disc;
+    font-family: "Quicksand", sans-serif;
+    color: #494949;
+  }
+  .lydo li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin-bottom: 0.6em;
+  }
+  .thongtin{
+    width: 100%;
+  }
+  .thongtin tr{
+    border-bottom: 1px solid #bbbbba;
+  }
+  .thongtin{
+    height: 250px;
+    margin: 0 2em;
+  }
+ .thongtin th{
+    width: 40%;
+ }
+ .thongtin td{
+  width: 60%;
+}

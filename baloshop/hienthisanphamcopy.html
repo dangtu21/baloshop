@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
   <!--icon-->
   <link rel="stylesheet" href="./assets/font/themify-icons-font (1)/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="./assets/css/style1.css">
-  <link rel="stylesheet" href="./assets/css/giohang.css">
+  <link rel="stylesheet" href="./assets/css/style2.css">
+
 
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -40,6 +40,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script  src="./assets/js/SanPham.js"></script>
 </head>
 
 <body>
@@ -104,8 +105,9 @@
         <i class="fa fa-shopping-basket" aria-hidden="true"></i>
         Giỏ Hàng
       </button>
-  </header><!-- End Header -->        
-        <div class="modal1" >
+     <!-- <div id="myModal" class="modal">
+        
+        <div class="modal-content" style="flex-direction: none">
           <div class="shopping">
             <div class="header-shopping">
                 <h2 class="header1">SHOPPING CART</h2>
@@ -163,11 +165,12 @@
             </div>
             </div>
             <div class="footer-shopping">
-                <button type="button" class="btn btn-primary1 order">
+                <button type="button" class="btn btn-primary order">
                     <strong>Subtotal:<br/></strong>
                     <span class="cart-total-price"></span>
                 </button>
             </div>
+            <script src="./main.js"></script>
           </div>
           <div class="address">
             <div class="header-address">
@@ -214,7 +217,7 @@
 
             </div>
           </div>
-          <div class="card1">
+          <div class="card">
             <div class="header-card">
                 <h2 class="header2">Card Dentails</h2>
             </div>
@@ -258,7 +261,59 @@
             <div class="footer-card">
 
             </div>
-          </div>         
+          </div>
+          <span class="close">
+            <i class="ti-close"></i>
+          </span>          
         </div>
+      </div>
+    </div>
+-->
+  <script src="./main.js"></script>
+  </header><!-- End Header -->
+  <div id="nav">
+    
+      <div class="headerNav">
+        <div class="header2">   
+            <h3 class="trangchu">Trang chu</h3>
+            <div id="search_bar" value="on" >
+              <input id="type" type="text" placeholder="Nhập từ khóa để tìm kiếm...">
+              
+              <a href="timkiemnangcao.html?9&0">
+                <button type="button" id="locnangcao" title="Tìm kiếm nâng cao" class="ti-search"></button>
+              </a>
+          </div>
+            <div class="timkiem">
+              <label for="search">Hiển thị 1–24 của 91 kết quả</label>
+              <select id="search" name="state">
+                <option value="volvo">Thứ tự theo giá: cao - thấp</option>
+                <option value="saab">Thứ tự theo giá: thấp - cao</option>
+                <option value="fiat" selected>Mới nhất</option>
+                <option value="audi">Thứ tự mức độ phổ biến </option>
+            </select>
+            </div>
+        </div>  
+        <div class="header3">
+          
+          
+        </div>
+      </div>
+      <div id="center">
+        <div id="balo">
+        </div>
+        <div class="cart2">
+          <p>Balo Zone – Cửa hàng balo chính hãng hàng đầu Việt Nam –  Phân phối các thương hiêu nổi tiếng như <b>Superdry,
+            Fjallvaven, Vans, Adidas, Nike, Carhartt Wip, Timerbland, Puma, Under Amrour , Burton, </b>The North Face, Herschel …</p>
+        <div id="cart1">
+          <div id="cart-item">
+
+          </div>
+        </div>
+        <div id='page'>
+          
+        </div>
+        </div>
+      </div>
+  </div>
   
-  </body>
+</body>

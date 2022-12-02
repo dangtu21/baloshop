@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/signIn.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons-font (1)/themify-icons/themify-icons.css">
 
-  <title>Wellcome Shop</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-  <!--icon-->
-  <link rel="stylesheet" href="./assets/font/themify-icons-font (1)/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="./assets/css/style1.css">
-  <link rel="stylesheet" href="./assets/css/giohang.css">
 
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -31,20 +28,9 @@
   <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-
-  <!-- =======================================================
-  * Template Name: Restaurantly - v3.9.1
-  * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
-
 <body>
-
-  <!-- ======= Top Bar ======= -->
+     <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
 
@@ -72,13 +58,13 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="./index.html#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="./index.html#about">About</a></li>
-          <li><a class="nav-link scrollto" href="./index.html#menu">Shop</a></li>
-          <li><a class="nav-link scrollto" href="./index.html#specials">Specials</a></li>
-          <li><a class="nav-link scrollto" href="./index.html#events">Events</a></li>
-          <li><a class="nav-link scrollto" href="./index.html#chefs">Developer</a></li>
-          <li><a class="nav-link scrollto" href="./index.html#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto active" href="../index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Shop</a></li>
+          <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
+          <li><a class="nav-link scrollto" href="#events">Events</a></li>
+          <li><a class="nav-link scrollto" href="#chefs">Developer</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -104,8 +90,9 @@
         <i class="fa fa-shopping-basket" aria-hidden="true"></i>
         Giỏ Hàng
       </button>
-  </header><!-- End Header -->        
-        <div class="modal1" >
+     <!-- <div id="myModal" class="modal">
+        
+        <div class="modal-content" style="flex-direction: none">
           <div class="shopping">
             <div class="header-shopping">
                 <h2 class="header1">SHOPPING CART</h2>
@@ -163,11 +150,12 @@
             </div>
             </div>
             <div class="footer-shopping">
-                <button type="button" class="btn btn-primary1 order">
+                <button type="button" class="btn btn-primary order">
                     <strong>Subtotal:<br/></strong>
                     <span class="cart-total-price"></span>
                 </button>
             </div>
+            <script src="./main.js"></script>
           </div>
           <div class="address">
             <div class="header-address">
@@ -214,7 +202,7 @@
 
             </div>
           </div>
-          <div class="card1">
+          <div class="card">
             <div class="header-card">
                 <h2 class="header2">Card Dentails</h2>
             </div>
@@ -258,7 +246,37 @@
             <div class="footer-card">
 
             </div>
-          </div>         
+          </div>
+          <span class="close">
+            <i class="ti-close"></i>
+          </span>          
         </div>
-  
-  </body>
+      </div>
+    </div>
+-->
+    <script src="./main.js"></script>
+  </header><!-- End Header -->
+  <div class="sector">
+    <div class="container container-signin">
+        <div class="form">
+            <h1>Log In</h1>
+
+            <div class="form-control">
+                <input class="form-input" id="email" type="email" placeholder="Email">
+                <div class="error-message"></div>
+            </div>
+
+            <div class="form-control">
+                <input class="form-input" id="password" type="password" placeholder="Password">
+                <div class="error-message"></div>
+            </div>
+
+            <button onclick="logIn()" class="btn-submit">Login</button>
+
+            <p id="signup-link">Not a member?<a href="signUp.html">Signup</a></p>
+        </div>
+    </div>
+  </div>
+</body>
+<script src="adminAccount.js"></script>
+</html>

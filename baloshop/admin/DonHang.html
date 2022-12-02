@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Quản trị</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="DonHang.js"></script>
+	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="./quantri.css" />
+</head>
+
+<body>
+	<div id="muc">
+		<div id="tengoi">
+			<img src="../image/logo.png" />
+			<div class="logo-text">Sữa bột IT</div>
+		</div>
+			<a href="KhachHang.html"><button class="chon" type="button" id="qluser"><img src="../image/quanlyuser.png"><p>Khách hàng</p></button></a>
+			<a href="SanPham.html"><button class="chon" type="button" id="qlsp"><img src="../image/quanlysp.png"><p>Sản phẩm</p></button></a>
+			<a href="DonHang.html"><button class="chon" type="button" id="qldh"><img src="../image/quanlydh.png"><p>Đơn hàng</p></button></a>
+			<a href="ThongKe.html"><button class="chon" type="button" id="tk"><img src="../image/tk.png"><p>Thống kê</p></button></a>
+			<div class="chon" id="chao">Xin chào Admin Nguyễn</div>
+			<p id="dangxuat"><img src="../image/dx.png">Đăng xuất</p>
+	</div>
+	
+
+	<!-- Đơn hàng -->
+	<div id="container">
+	<div id="DivDonHang" class="content" >
+		<hr>
+		<h2>Quản lý đơn hàng</h2>
+		<hr>
+		<div style="margin-left: 130px;float: left;margin-top: 10px">
+			Thời gian
+			<select id="selectTime">
+				<option value="1">1/1/2016 - 1/1/2017</option>
+				<option value="2" selected>1/1/2017 - 1/1/2018</option>
+				<option value="3">Kể từ 1/1/2018</option>
+			</select>
+		</div>
+		
+		<div id="TableDonHang">
+			
+		</div>
+	</div>
+	<div id="chitietDonHang" class="content">
+			<div id="x">X</div>
+			<div id="thongtindonhang">
+				<div>Mã đơn hàng</div><input id="madonhang"type="text" readonly>
+				<div>Thời gian</div><input id="thoigian" type="text" readonly><br>
+				<div>Tài khoản</div><input id="taikhoan" type="text" readonly>
+				<div>Trạng thái</div><input id="trangthai" type="text" readonly>
+			</div>
+		<div id="donhangsp">
+		</div>
+	</div>
+	</div>
+
+	<div id="page">
+		<div>
+			<a href=""><span><</span></a>
+			<a href=""><span>1</span></a>
+			<a href=""><span>></span></a>
+		</div>
+
+	</div>
+	<div id="foot">
+		<div>Quản trị Sữa bột IT</div>
+		<div>Copyright &copy 2018 . <span>SUABOTIT.VN</span> . All Rights Reserved.</div>
+		
+	</div>
+
+</body>
+</html>
