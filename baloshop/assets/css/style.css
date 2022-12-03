@@ -2363,5 +2363,8 @@ margin-left: 0;
 .cart > a:hover{
   color:#cda45e;
 }
+#gallery img{
+  height: 17em;
+}
 
 
