@@ -134,3 +134,7 @@ body {
  .thongtin td{
   width: 60%;
 }
+ #info > p{
+  font-size: 25px;
+  margin-top: 2em;
+}
