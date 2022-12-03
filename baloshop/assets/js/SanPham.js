@@ -116,7 +116,7 @@ function sanpham(){
 			dem=0;
 			for(i=vitri; i < sp.length; i++){
 				dem++;
-				s =s +  "<div class=\"cart-row\"><div class=\"portfolio-wrap\">" + "<img src=" + src + "balo"+ i + "/1" + ".jpg class=\"img-fluid\" alt=\"\" width=\"415px\" height=\"315px\"><div class=\"portfolio-links\"><a href=\"\" title=\"More Details\" class=\"cart-title-item\">" + sp[i] + "</a><br/><b class=\"cart-price\">" + Number(gia[i]).toLocaleString() + "</b> </div></div></div>";
+				s =s +  "<div class=\"cart-row\"><div class=\"portfolio-wrap\">" + "<img src=" + src + "balo"+ i + "/1" + ".jpg class=\"img-fluid\" alt=\"\" width=\"415px\" height=\"315px\"><div class=\"portfolio-links\"><a href=\" chitiet.html?"+tem[0]+"&"+ i +"\" title=\"More Details\" class=\"cart-title-item\">" + sp[i] + "</a><br/><b class=\"cart-price\">" + Number(gia[i]).toLocaleString() + "</b> </div></div></div>";
 				if(dem == 18) break;
 			}
 			

@@ -232,7 +232,9 @@ body {
     letter-spacing: 1px;
     transition: 0.3s;
   }
-  
+  a:hover{
+    color:#000;
+  }
   .book-a-table-btn:hover {
     background: #cda45e;
     color: #fff;
@@ -618,18 +620,18 @@ body {
     font-size: 15px;
   }
   .header3{
-    width: 71%;
+    width: 75%;
     display: flex;
   }
   .header2 > h3 {
-    width: 29%;
+    width: 25%;
   }
   .timkiem{
-    width: 60%;
+    width: 70%;
     margin-left: 1em;
   }
   #search_bar{
-    width: 40%;
+    width: 30%;
   }
   #search_bar input{
     border:1px solid #bbbbba;
