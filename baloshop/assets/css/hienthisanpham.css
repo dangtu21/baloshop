@@ -378,6 +378,31 @@ body {
       display: none;
     }
   }
+  @media (max-width: 1260px) {
+    
+    .timkiem label{
+      display: none;
+    }
+    #search_bar{
+      width: 70% !important;
+    }
+    .timkiem{
+      width: 30% !important;
+    }
+    
+
+  }
+  @media (max-width: 792px) {
+    
+    #search_bar{
+      width: 100% !important;
+    }
+    .header3{
+      display: block !important;
+    }
+    
+
+  }
   
   .navbar-mobile {
     position: fixed;
@@ -507,14 +532,12 @@ body {
   .header2{
     margin: 1.5em 0;
   }
-  .header2,.header3{
+  .header2{
     display: flex;
     position: relative;
   }
-  .timkiem{
-    position: absolute;
-    right: 50px;
-  }
+  
+  
   .timkiem label{
     font-size: medium;
     padding-right: 40px;
@@ -594,8 +617,19 @@ body {
     color: #bbbbba;
     font-size: 15px;
   }
+  .header3{
+    width: 71%;
+    display: flex;
+  }
+  .header2 > h3 {
+    width: 29%;
+  }
+  .timkiem{
+    width: 60%;
+    margin-left: 1em;
+  }
   #search_bar{
-     margin-left: 200px;
+    width: 40%;
   }
   #search_bar input{
     border:1px solid #bbbbba;
