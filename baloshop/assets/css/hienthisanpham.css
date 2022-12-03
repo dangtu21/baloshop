@@ -505,7 +505,7 @@ body {
     color:#000;
     margin-top: 10em;
     width: 100%;
-    padding:0 6em;
+    padding:0 6%;
   }
   .headerNav{
     font-size: 25px;
@@ -542,7 +542,7 @@ body {
   
   .timkiem label{
     font-size: medium;
-    padding-right: 40px;
+    padding-right: 2%;
   }
   .timkiem select{
     font-size: medium;
