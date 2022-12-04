@@ -24,14 +24,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Playfair Display", serif;
-}
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -211,6 +204,8 @@ h6 {
 
 #header .logo img {
   max-height: 40px;
+  color: white !important;
+  background-color: white !important;
 }
 
 /*--------------------------------------------------------------
@@ -312,6 +307,8 @@ h6 {
 .navbar .dropdown ul a {
   padding: 10px 20px;
   color: #444444;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .navbar .dropdown ul a i {
@@ -501,7 +498,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #84d86d;
+  color: #d9ba85;
 }
 
 #hero h2 {
@@ -686,7 +683,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -711,7 +708,6 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
   color: #cda45e;
 }
 
@@ -1167,7 +1163,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Book A Table
+# Book A Table 
 --------------------------------------------------------------*/
 .book-a-table .php-email-form {
   width: 100%;
@@ -1650,8 +1646,8 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Playfair Display", serif;
   color: #fff;
+  line-height: 1.5rem;
 }
 
 #footer .footer-top .social-links a {
@@ -1936,11 +1932,11 @@ section {
 
 
   .cart {
-    margin: 0 0 0 15px;
+    margin:0 48px 0 0;
     border: 2px solid #cda45e;
     color: #fff;
-    border-radius: 50px;
-    padding: 8px 25px;
+    border-radius: 100px;
+    padding: 4px;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 500;
@@ -1948,6 +1944,34 @@ section {
     opacity: 90%;
     transition: 0.3s;
     background-color: transparent;
+    display: flex;
+    align-items: center;
+  }
+
+  .cart i{
+    margin-right: 10px;
+    position: relative;
+    left: 10px;
+  }
+
+  .cart p{
+    margin: 0;
+    position: relative;
+    left: 10px;
+  }
+
+  .cart::after{
+    content: "0";
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 14px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    left: 14px;
+    bottom: 18px;
+    background-color:#cda45e ;
+    border-radius: 100px;
   }
   
   .ssshover {
@@ -2367,4 +2391,23 @@ margin-left: 0;
   height: 17em;
 }
 
+.list-menu .item-blog{
+  display: flex;
+}
+
+.list-menu .item-blog .info{
+  margin-left: 10px;
+}
+
+.list-menu .item-blog .info .enti-title a{
+  color: white;
+}
+
+.list-menu .item-blog .info .enti-title a:hover{
+  color:#cda45e;
+}
+
+.list-menu .item-blog .info .post-time{
+  color:#c1c1c1;
+}
 
