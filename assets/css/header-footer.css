@@ -496,6 +496,10 @@ body {
     line-height: 1;
 }
 
+.list-menu{
+  padding: 0;
+}
+
 .list-menu .item-blog {
     display: flex;
 }

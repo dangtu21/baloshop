@@ -101,12 +101,14 @@ body {
   }
   .quantity{
     margin: 0.5em;
+    display: flex;
   }
   #quantity_6387668eae1bd{
-    width: 4em;
+    width: 40px;
   }
   .quantity > input{
-    padding:0.2em 0.6em;
+    padding:0 8px;
+    margin: 0 2px;
   }
   .lydo {
     list-style: disc;

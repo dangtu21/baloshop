@@ -637,6 +637,7 @@ body {
   }
   #search_bar{
     width: 30%;
+    display: flex;
   }
   #search_bar input{
     border:1px solid #bbbbba;
