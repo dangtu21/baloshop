@@ -380,6 +380,11 @@ body {
       display: none;
     }
   }
+
+  #search-bar{
+    display: flex;
+  }
+
   @media (max-width: 1260px) {
     
     .timkiem label{
@@ -574,7 +579,7 @@ body {
   }
   
   .cart-row{
-    width: 280px;
+    width: 30%;
     margin: 10px;
     float: left;
   }

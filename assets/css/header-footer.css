@@ -28,7 +28,7 @@ body {
     font-size: 14px;
     transition: all 0.4s;
     z-index: 996;
-    background: rgba(12, 11, 9, 0.6);
+    background: rgba(12, 11, 9, 0.8);
   }
   
   #topbar.topbar-scrolled {
