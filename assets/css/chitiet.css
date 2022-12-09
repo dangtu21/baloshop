@@ -138,6 +138,10 @@ body {
   font-size: 25px;
   margin-top: 2em;
 }
+#mota > p {
+  font-size: 25px;
+  margin-top: 2em;
+}
 .social-links a{
   color: #bbbbba;
   margin-right: 0.3em;

@@ -9,14 +9,13 @@
     margin-top: 130px;
     display: flex;
     flex-direction: none;
-    margin-left: 12em;
-    margin-right: 4em;
+    margin-left: 10%;
     width: 80%;
 }
 /* giohang */
 .shopping{
     
-    width: 30%;
+    width: 40%;
     height: 576px;
     position: relative;
     
@@ -122,7 +121,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-right: 2em;
     position: absolute;
     bottom: 0;
     right:0;
@@ -182,11 +180,11 @@
   .address{
   background-color: #31394d;
   width: 25.7%;
-  height: auto;
+  height: 550px;
   margin: 32px 0em;
   border-radius:10px ;
-  margin-right: 5em;
-  margin-left: 5em;
+  margin-right: 3%;
+  margin-left: 3%;
   
   }
   .header2{
@@ -221,7 +219,7 @@
   .body-card label,
   .body-address label{
   width: 90%;
-  margin-top: 30px;
+  margin-top: 10%;
   color:#bbbbba;
   font-size: 1em;
   }
@@ -305,4 +303,6 @@
   .cart > a:hover{
     color:#cda45e;
   }
-  
+  .cart-total{
+    margin-right: 10%;
+  }
