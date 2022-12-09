@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!--icon-->
+    <link rel="stylesheet" href="/assets/font/themify-icons-font (1)/themify-icons/themify-icons.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Favicons -->
+    <link href="./assets/img/favicon.png" rel="icon">
+    <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="/assets/css/chitietsanpham.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+    
+          <div class="contact-info d-flex align-items-center">
+            <i class="bi bi-phone d-flex align-items-center"><span>1900 866 690</span></i>
+            <i class="bi bi-clock d-flex align-items-center ms-4"><span> Thứ Hai - Thứ Bảy : 11AM - 23PM</span></i>
+          </div>
+    
+          <div class="languages d-none d-md-flex align-items-center">
+            <ul>
+              <li>Đăng Kí</li>
+              <li><a href="#">Đăng Nhập</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <header id="header" class="fixed-top d-flex align-items-cente">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+    
+          <h1 class="logo me-auto me-lg-0"><a href="index.html">BALOSHOP</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+                <li><a class="nav-link scrollto active" href="/index.html">TRANG CHỦ</a></li>
+                <li><a class="nav-link scrollto" href="/index.html#about">GIỚI THIỆU</a></li>
+                <li class="dropdown"><a href="/sanpham.html"><span>SẢN PHẨM</span> <i class="bi bi-chevron-down"></i></a>
+                  <ul>
+                    <li><a href="#">Khuyến mãi</a></li>
+                    <li class="dropdown"><a href="#"><span>Balo</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Balo Laptop</a></li>
+                        <li><a href="#">Balo Thể Thao</a></li>
+                        <li><a href="#">Balo Thời Trang</a></li>
+                        <li><a href="#">Balo Du Lịch - Phượt</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Phụ Kiện</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Ví Nam</a></li>
+                        <li><a href="#">Ví Nữ</a></li>
+                        <li><a href="#">Túi xách</a></li>
+                        <li><a href="#">Nón</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Thương Hiệu</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Adidas</a></li>
+                        <li><a href="#">Nike</a></li>
+                        <li><a href="#">Puma</a></li>
+                        <li><a href="#">Fjallraven</a></li>
+                        <li><a href="#">Vans</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a class="nav-link scrollto" href="/index.html#portfolio">BÁN CHẠY</a></li>
+                <li><a class="nav-link scrollto" href="/index.html#events">TIN TỨC</a></li>
+                <li><a class="nav-link scrollto" href="/index.html#contact">LIÊN HỆ</a></li>
+              </ul>
+                  <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav><!-- .navbar -->
+                <button id="cart" class="cart scrollto d-none d-lg-flex">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                  <p><a href="/giohang.html" style="color:white;">Giỏ hàng</a></p>
+                </button>
+    
+        </div>
+      </header><!-- End Header -->
+
+      <div class="container container-detail">
+        <div class="product" id="item-product">
+          <div class="image">
+            <img src="/assets/img/img-sanpham1/phukien-Carhartt-3.jpg" alt="">
+          </div>
+        <div class="info">
+            <span class="name">Balo Du Lịch Đa Năng Chính Hãng GLB1120</span><br>
+            <span class="price">550.000đ</span>
+            <div class="count">
+                <div class="btn-count">
+                    <button class="btn-up">-</button>
+                    <input type="text" value="1">
+                    <button class="btn-down">+</button>
+                </div>
+                <a href="" class="add-product">Thêm vào giỏ hàng</a>
+            </div>
+        
+            <span>TẠI SAO CHỌN BALOSHOP?</span>
+        
+            <ul class="policy">
+                <li class="policy-item">Đại lý chính hãng hơn 30 thương hiệu hàng đầu</li>
+                <li class="policy-item">Đổi trả 30 ngày nếu không hài lòng</li>
+                <li class="policy-item">Hoàn tiền nếu không hài lòng sản phẩm</li>
+                <li class="policy-item">Bảo hành sản phẩm lên đến 01 năm</li>
+            </ul>
+        
+            <div class="icon-socials">
+                <a href="" class="icon-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" class="icon-link"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" class="icon-link"><i class="fa-regular fa-envelope"></i></a>
+                <a href="" class="icon-link"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="" class="icon-link"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        
+        </div>
+        </div>
+
+        <div class="parameters-product">
+            <ul>
+                <li class="thongtin">
+                    <div>THÔNG TIN</div>
+                </li>
+                <li>
+                    <div class="title">TRỌNG LƯỢNG</div>
+                    <div class="parameters">400g</div>
+                </li>
+                <li>
+                    <div class="title">THƯƠNG HIỆU</div>
+                    <div class="parameters">Adidas</div>
+                </li>
+                <li>
+                    <div class="title">MÀU SẮC</div>
+                    <div class="parameters">Black</div>
+                </li>
+                <li>
+                    <div class="title">KÍCH THƯỚC</div>
+                    <div class="parameters">50 x 26 x 24cm 30 lit</div>
+                </li>
+                <li>
+                    <div class="title">CHẤT LIỆU</div>
+                    <div class="parameters">G-1000® HeavyDuty Eco S: 65% polyester, 35% cotton</div>
+                </li>
+                <li class="thongtin">
+                    <div>MÔ TẢ</div>
+                </li>
+            </ul>
+        </div>
+      </div>
+
+
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+    
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-info">
+                  <h3>Baloshop</h3>
+                  <p>
+                    273 An D. Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh 700000<br><br>
+                    <strong>Phone:</strong> +84799721539<br>
+                    <strong>Email:</strong> anhtuhanam1@gmail.com<br>
+                  </p>
+                  <div class="social-links mt-3">
+                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://www.facebook.com/nong.than.944" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-2 col-md-6 footer-links">
+                <h4>VỀ CHÚNG TÔI</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Trang Chủ</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Giới Thiệu</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Bán Chạy</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Tin Tức</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Liên Hệ</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 footer-newsletter">
+                <h4>BÀI VIẾT MỚI</h4>
+                  <ul class="list-menu">
+                    <li class="item-blog">
+                      <a class="thumb" href="">
+                        <img width="100" height="auto" src="https://bizweb.dktcdn.net/100/445/950/articles/cach-chon-size-balo-chong-soc-cho-laptop.jpg?v=1670471038993" alt="">
+                      </a>
+                      <div class="info">
+                        <div class="enti-title">
+                          <a href="">Cách chọn size balo chống sốc cho laptop chuẩn nhất</a>
+                        </div>
+                        <p class="post-time">02/12/2022</p>
+                      </div>
+                    </li>
+    
+                    <li class="item-blog">
+                      <a class="thumb" href="">
+                        <img width="100" height="auto" src="https://bizweb.dktcdn.net/100/445/950/articles/top-tui-xach-nu-deo-cheo-han-quoc-cuc-xin.jpg?v=1667355040380" alt="">
+                      </a>
+                      <div class="info">
+                        <div class="enti-title">
+                          <a href="">Top túi xách nữ đeo chéo Hàn Quốc cực xịn cho các...</a>
+                        </div>
+                        <p class="post-time">28/11/2022</p>
+                      </div>
+                    </li>
+    
+                    <li class="item-blog">
+                      <a class="thumb" href="">
+                        <img width="100" height="auto" src="https://bizweb.dktcdn.net/100/445/950/articles/top-tui-deo-cheo-han-quoc-hot-nhat-2022.jpg?v=1668046946223" alt="">
+                      </a>
+                      <div class="info">
+                        <div class="enti-title">
+                          <a href="">Top túi đeo chéo Hàn Quốc hot nhất 2022</a>
+                        </div>
+                        <p class="post-time">14/11/2022</p>
+                      </div>
+                    </li>
+                  </ul>
+    
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>CHÍNH SÁCH</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Chính Sách Bảo Hành</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Chính Sách Vận Chuyển</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Chính Sách Đổi Trả</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Chính Sách Bảo Mật</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Phương Thức Thanh Toán</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Hướng Dẫn Mua Hàng</a></li>
+                </ul>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="container">
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
+            2022 <a href="#">© BaloShop</a> bảo lưu mọi quyền 
+          </div>
+          <div class="copyright">
+            Từ khóa thường tìm kiếm: Balo Laptop, Balo Thời Trang, Balo Du Lịch, Balo Thể Thao, Balo Học Sinh, Ví Nam, Ví Nữ
+          </div>
+        </div>
+      </footer><!-- End Footer -->
+
+         <!-- Vendor JS Files -->
+        <script src="/assets/vendor/aos/aos.js"></script>
+        <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>   
+        <script src="/assets/js/main.js"></script>
+        <script src="/assets/js/SanPham2.js"></script>  
+</body>
+</html>
