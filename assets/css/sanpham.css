@@ -558,16 +558,16 @@ ul.list-product li .product-info a{
   font-weight: 600;
 }
 
-.content-paging{
+#page{
   margin-left: 150px;
   margin-top:50px;
 }
 
-.content-paging ul li a{
+#page ul li a{
   color: black;
 }
 
-.content-paging ul li.btn-disabled a{
+#page ul li.btn-disabled a{
   color: gray;
 }
 
@@ -594,7 +594,7 @@ ul.list-product li .product-info a{
 }
 
 .number-page li.active a{
-  color: white;
+  color: white !important;
 }
 
 .list-btn .btn-disabled{

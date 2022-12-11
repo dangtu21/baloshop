@@ -124,17 +124,17 @@ function sanpham(){
 			for(i=vitri; i < sp.length; i++){
 				dem++;
 				s =s +  "<div class=\"cart-row\"><div class=\"portfolio-wrap\">" + "<img src=" + src + "balo"+ i + "/1" + ".jpg class=\"img-fluid\" alt=\"\" width=\"415px\" height=\"315px\"><div class=\"portfolio-links\"><a href=\"chitietcopy.html?"+tem[0]+"&"+ i +"\" title=\"More Details\" class=\"cart-title-item\">" + sp[i] + "</a><br/><b class=\"cart-price\">" + Number(gia[i]).toLocaleString() + "$</b> </div></div></div>";
-				if(dem == 18) break;
+				if(dem == 9) break;
 			}
 			
-			sotrang = Math.ceil(sp.length/18);
-			var head = "<a href='hienthisanphamcopy.html?" + tem[0] + "&" + 0 + "'>" + "<<" + "</a>";
-			var tail = "<a href='hienthisanphamcopy.html?" + tem[0] + "&" + ((sotrang-1)*18) + "'>" + ">>" + "</a>";
+			sotrang = Math.ceil(sp.length/9);
+			var head = "<ul class=\"list-btn\"><li class=\"btn-prev\"><a href='hienthisanphamcopy.html?" + tem[0] + "&" + 0 + "'><</a></li>"+"<div class=\"number-page\" id=\"number-page\">";
+			var tail = "</div><li class='btn-next'><a href='hienthisanphamcopy.html?" + tem[0] + "&" + ((sotrang-1)*9) + "'>" + ">" + "</a></li></ul>";
 			for(i=1 ; i <= sotrang; i++){
-				vitri = (i-1)*18;
-				lienket = lienket + "<a href='hienthisanphamcopy.html?" + tem[0] + "&" + vitri + "'>" + i + "</a>";
+				vitri = (i-1)*9;
+				lienket = lienket + "<li"+(i==(tem[1]/9+1)?" class=\"active\"":"")+ "><a href=\"hienthisanphamcopy.html?" + tem[0] + "&" + vitri + "\">" + i + "</a></li>";
 			}
-			var x=head + lienket +  tail 
+			var x=head + lienket +  tail ;
 			document.getElementById('cart-item').innerHTML = s  ;
 
 			document.getElementById('page').innerHTML = x;
