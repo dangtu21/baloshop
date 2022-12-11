@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #d9ba85;
+  color: #d9ba85 !important;
   text-decoration: none;
 }
 
@@ -162,11 +162,12 @@ a:hover {
   padding-left: 10px;
 }
 
-#topbar .languages ul li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  content: "/";
+#topbar .languages ul.register{
+  display: flex;
+}
+
+#topbar .languages ul.registered{
+  display: none;
 }
 
 /*--------------------------------------------------------------
@@ -769,7 +770,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  background: url("https://noithatnamviet.com/wp-content/uploads/2020/07/ke-trung-bay-vali-7.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -1072,7 +1073,7 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(https://noithatnamviet.com/wp-content/uploads/2020/07/ke-trung-bay-vali-7.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -2389,6 +2390,10 @@ margin-left: 0;
 }
 #gallery img{
   height: 17em;
+}
+
+.list-menu{
+  padding: 0;
 }
 
 .list-menu .item-blog{

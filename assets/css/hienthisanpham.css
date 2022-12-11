@@ -380,6 +380,11 @@ body {
       display: none;
     }
   }
+
+  #search-bar{
+    display: flex;
+  }
+
   @media (max-width: 1260px) {
     
     .timkiem label{
@@ -633,6 +638,7 @@ body {
   }
   #search_bar{
     width: 30%;
+    display: flex;
   }
   #search_bar input{
     border:1px solid #bbbbba;
