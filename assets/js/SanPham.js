@@ -52,8 +52,15 @@ function sanpham(){
 		//Duoi 24 thang tuoi
 		case '0':
 		{
-			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2");
-			var gia = new Array(680,350,4199,850);
+            var ten = "Balo";
+            var trongluong = new Array(300,400,500,600,400,300,400,500,600,400,300,400,500,600,400,300,400,500,600,400);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip");
+            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black", "red","Brown","green", " yehlow","black", "red","Brown","green", " yehlow","black", "red","Brown")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2","Carhartt Philis Backpack");
+			
+			var gia = new Array(680,350,4199,850,699,680,350,4199,850,699,680,350,4199,850,699,680,350,4199,850,699);
 			src += './assets/img/balo/';
 			break;
 		}
@@ -116,7 +123,7 @@ function sanpham(){
 			dem=0;
 			for(i=vitri; i < sp.length; i++){
 				dem++;
-				s =s +  "<div class=\"cart-row\"><div class=\"portfolio-wrap\">" + "<img src=" + src + "balo"+ i + "/1" + ".jpg class=\"img-fluid\" alt=\"\" width=\"415px\" height=\"315px\"><div class=\"portfolio-links\"><a href=\"chitietcopy.html?"+tem[0]+"&"+ i +"\" title=\"More Details\" class=\"cart-title-item\">" + sp[i] + "</a><br/><b class=\"cart-price\">" + Number(gia[i]).toLocaleString() + "</b> </div></div></div>";
+				s =s +  "<div class=\"cart-row\"><div class=\"portfolio-wrap\">" + "<img src=" + src + "balo"+ i + "/1" + ".jpg class=\"img-fluid\" alt=\"\" width=\"415px\" height=\"315px\"><div class=\"portfolio-links\"><a href=\"chitietcopy.html?"+tem[0]+"&"+ i +"\" title=\"More Details\" class=\"cart-title-item\">" + sp[i] + "</a><br/><b class=\"cart-price\">" + Number(gia[i]).toLocaleString() + "$</b> </div></div></div>";
 				if(dem == 18) break;
 			}
 			

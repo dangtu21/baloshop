@@ -574,7 +574,8 @@ body {
   }
   
   .cart-row{
-    width: 280px;
+    width: 30%;
+    height: auto;
     margin: 10px;
     float: left;
   }
@@ -675,5 +676,13 @@ body {
 a{
   text-decoration: none;
 }
-  
+.img-fluid{
+  height: 240px !important;
+}
+.portfolio-wrap img{
+  height: 80%;
+}
+.portfolio-links{
+  height: 20%;
+}
  

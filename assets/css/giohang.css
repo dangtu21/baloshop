@@ -306,3 +306,17 @@
   .cart-total{
     margin-right: 10%;
   }
+  option{
+    background-color: #fff;
+    color:#000;
+    padding: 3% 5%;
+  }
+  #cart > p{
+    margin-bottom: 0;
+  }
+  #header a{
+    text-decoration: none;
+  }
+  option:hover {
+    
+  }
