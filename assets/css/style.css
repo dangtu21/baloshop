@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #d9ba85;
+  color: #d9ba85 !important;
   text-decoration: none;
 }
 
@@ -162,11 +162,12 @@ a:hover {
   padding-left: 10px;
 }
 
-#topbar .languages ul li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  content: "/";
+#topbar .languages ul.register{
+  display: flex;
+}
+
+#topbar .languages ul.registered{
+  display: none;
 }
 
 /*--------------------------------------------------------------

@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="" name="description">
     <meta content="" name="keywords">
-    <title>Đăng Ký</title>
-    <link rel="stylesheet" href="/assets/css/SignInSignUp.css">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="/assets/css/giohang1.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
      <!--icon-->
      <link rel="stylesheet" href="./assets/font/themify-icons-font (1)/themify-icons/themify-icons.css">
      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
      <!-- Favicons -->
@@ -39,8 +42,8 @@
     
           <div class="languages d-none d-md-flex align-items-center">
             <ul>
-              <li>Đăng Kí</li>
-              <li><a href="#">Đăng Nhập</a></li>
+              <li><a href="signUp.html">Đăng Kí</a></li>
+              <li><a href="signIn.html">Đăng Nhập</a></li>
             </ul>
           </div>
         </div>
@@ -55,7 +58,7 @@
     
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <li><a class="nav-link scrollto active" href="index.html#hero">TRANG CHỦ</a></li>
+                <li><a class="nav-link scrollto " href="index.html#hero">TRANG CHỦ</a></li>
                 <li><a class="nav-link scrollto" href="index.html#about">GIỚI THIỆU</a></li>
                 <li class="dropdown"><a href="sanpham.html"><span>SẢN PHẨM</span> <i class="bi bi-chevron-down"></i></a>
                   <ul>
@@ -100,50 +103,104 @@
     
         </div>
       </header><!-- End Header -->
-    <div class="container container-signup">
-        <div class="form">
-            <h1>Đăng kí</h1>
-            <p style="margin-top: 20px;">Đã có tài khoản, đăng nhập <a href="">tại đây</a></p>
-            <div class="form-control">
-                <input class="form-input"  id="fullname" type="text" placeholder="Họ tên">
-                <small></small>
-                <span></span>
-                <div style="text-align: left;color:#CC0000" class="error-message"></div>
+    
+    <div class="container-fluid container-cart">
+        <div class="products">
+            <div class="table-cart">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 300px;">SẢN PHẨM</th>
+                            <th style="width: 100px;">GIÁ</th>
+                            <th style="width: 150px;">SỐ LƯỢNG</th>
+                            <th style="width: 100px;text-align: right;">TẠM TÍNH</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-xmark"></i>
+                                <img width="80" src="/assets/img/img-sanpham1/balo-CarharttWip-3.jpg" alt="">
+                                CarharttWip 3
+                            </td>
+                            <td>850.000₫</td>
+                            <td>
+                                <button class="subtract">-</button>
+                                <input style="width:30px;text-align:center;" type="text" value="1">
+                                <button class="add">+</button>
+                            </td>
+                            <td style="text-align: right;">850.000₫</td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-xmark"></i>
+                                <img width="80" src="/assets/img/img-sanpham1/balo-CarharttWip-3.jpg" alt="">
+                                CarharttWip 3
+                            </td>
+                            <td>850.000₫</td>
+                            <td>
+                                <button class="subtract">-</button>
+                                <input style="width:30px;text-align:center;" type="text" value="1">
+                                <button class="add">+</button>
+                            </td>
+                            <td style="text-align: right;">850.000₫</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-xmark"></i>
+                                <img width="80" src="/assets/img/img-sanpham1/balo-CarharttWip-3.jpg" alt="">
+                                CarharttWip 3
+                            </td>
+                            <td>850.000₫</td>
+                            <td>
+                                <button class="subtract">-</button>
+                                <input style="width:30px;text-align:center;" type="text" value="1">
+                                <button class="add">+</button>
+                            </td>
+                            <td style="text-align: right;">850.000₫</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            <div class="form-control">
-                <input class="form-input" id="email" type="email" placeholder="Email">
-                <small></small>
-                <span></span>
-                <div style="text-align: left;color:#CC0000" class="error-message"></div>
+            <div class="back-product">
+                <i class="fa-solid fa-arrow-left"></i>
+                Tiếp tục xem sản phẩm
             </div>
-
-            <div class="form-control">
-                <input class="form-input" id="phone" type="number" placeholder="Số điện thoại">
-                <small></small>
-                <span></span>
-                <div style="text-align: left;color:#CC0000" class="error-message"></div>
-            </div>
-
-            <div class="form-control">
-                <input class="form-input" id="password" type="password" placeholder="Mật khẩu">
-                <small></small>
-                <span></span>
-                <div style="text-align: left;color:#CC0000" class="error-message"></div>
-            </div>
-
-            <div class="form-control">
-                <input class="form-input" id="confirm-password" type="password" placeholder="Nhập lại mật khẩu">
-                <small></small>
-                <span></span>
-                <div style="text-align: left;color:#CC0000" class="error-message"></div>
-            </div>  
-
-            <button  onclick="addnew()" class="btn-submit">Đăng kí</button>
-
         </div>
 
-    </div>
+        <div class="pay-cart">
+            <h6>CỘNG GIỎ HÀNG</h6>
+            <div class="pay price">
+                <div class="left">Tạm tính</div>
+                <div class="right">4.278.000₫</div>
+            </div>
+
+            <div class="pay delivery">
+                <div class="left">Giao hàng</div>
+                <div class="right">
+                    Phí vận chuyển sẽ báo sau. <br>
+                    Vận chuyển đến <b>Hồ Chí Minh</b>.
+                </div>
+            </div>
+            
+            <div class="pay total">
+                <div class="left">Tổng cộng</div>
+                <div class="right">4.278.000₫</div>
+            </div>
+
+            <div class="payment" onclick="Flex()">TIẾN HÀNH THANH TOÁN</div>
+            <div class="saleoff">
+                <i class="bx bx-purchase-tag-alt"></i>
+                Phiếu ưu đãi
+            </div>
+            <input type="text" placeholder="Mã ưu đãi"><br>
+            <button>Áp dụng</button>
+        </div>
+
+    </div>   
 
     <footer id="footer">
         <div class="footer-top">
@@ -246,12 +303,124 @@
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a style="color:#cda45e;" href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
       </footer><!-- End Footer -->
 
-      <script src="/assets/js/adminAccount.js"></script>
+      <div class="modals" id="modals">
+        <div class="modals-overlay">
+
+        </div>
+        <div class="modals-body">
+          <div class="container modals-inner">
+              <div style="display: flex;justify-content: center;" class="first">
+                <h3 style="text-align: center;">BALOSHOP</h3>
+                <span onclick="None()" style="position:relative;left:380px;font-size:30px;cursor: pointer;">
+                  <i class="fa-solid fa-xmark"></i>
+                </span>
+              </div>
+              <hr>
+              <span class="step" style="text-align: center;margin-left: 235px;font-size: 20px;">GIỎ HÀNG > <b>KIỂM TRA ĐƠN HÀNG</b> > HOÀN THÀNH</span>
+              <hr style="width:60%">
+              <div class="container main">
+                <div class="info">
+                  <h5>THÔNG TIN THANH TOÁN</h5>
+                  <div class="form-group">
+                    <label for="name">Họ và tên*</label> <br>
+                    <input class="form-input name" type="text" placeholder="Nhập đầy đủ họ và tên" value="Nguyễn Giang Kiết Tường">
+                  </div>
+                  <div class="doub-input">
+                    <div class="form-group">
+                      <label for="">Số điện thoại*</label><br>
+                      <input class="form-input phone" type="text" placeholder="Số điện thoại" value="0973366791"></input>
+                    </div>
+                    <div class="form-group">
+                      <label for="">Email*</label><br>
+                      <input class="form-input email" type="text" placeholder="Email" value="kiettuong.nguyen0909@gmail.com"></input>
+                    </div>
+                  </div>
+
+                  <div class="doub-input">
+                    <div class="form-group">
+                      <label for="">Tỉnh/Thành phố*</label><br>
+                      <select name="tinh/thanhpho" id="tp">
+                        <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="">Quận/Huyện*</label><br>
+                      <select name="quan/huyen" id="quan">
+                        <option value="">Quận 5</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="">Địa chỉ*</label><br>
+                    <input class="form-input email" type="text" placeholder="Email" value="273 An D. Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh 700000"></input>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="">Ghi chú đơn hàng(tùy chọn)</label><br>
+                    <textarea style="outline: none;padding-left: 6px;" name="ghichu" id="" cols="60" rows="5"></textarea>
+                  </div>
+                </div>
+
+                <div class="cart">
+                  <h5>ĐƠN HÀNG CỦA BẠN</h5>
+                  <div class="title">
+                    <span>SẢN PHẨM</span>
+                    <span>TẠM TÍNH</span>
+                  </div>
+                  <div class="product">
+                    <div class="name">Foldsack No.2<b> x1</b></div>
+                    <div class="price">850.000₫</div>
+                  </div>
+                  <div class="product">
+                    <div class="name">Dragon Egg MK II Backpack<b> x1</b></div>
+                    <div class="price">1.099.000₫</div>
+                  </div>
+                  <div class="product">
+                    <div class="name">Premium Atlantic Classic Backpack<b> x1</b></div>
+                    <div class="price">850.000₫</div>
+                  </div>
+                  <div class="product">
+                    <div class="name">Raven 20<b>x1</b></div>
+                    <div class="price">580.000₫</div>
+                  </div>
+                  <div class="product">
+                    <div class="name">Fjallraven High Cost 24<b> x1</b></div>
+                    <div class="price">899.000₫</div>
+                  </div>
+                  <div class="feature">
+                    <div class="left">Tạm tính</div>
+                    <div class="right">4.278.000₫</div>
+                  </div>
+                  <div class="feature">
+                    <div class="left">Giao hàng</div>
+                    <div class="right">GHTK đường bộ: 43.390₫</div>
+                  </div>
+                  <div class="feature">
+                    <div class="left">Tổng</div>
+                    <div class="right">4.278.000₫</div>
+                  </div>
+
+                  <div class="select">
+                    <input name="pay" type="radio">
+                    <label for="">Chuyển khoản ngân hàng</label><br>
+                    <input name="pay" type="radio">
+                    <label for="">Trả tiền mặt khi nhận hàng</label>
+                  </div>
+
+                  <button class="dathang">ĐẶT HÀNG</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -259,8 +428,8 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="/assets/js/main.js"></script>
-
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/modal.js"></script>
 </body>
-
+ 
 </html>

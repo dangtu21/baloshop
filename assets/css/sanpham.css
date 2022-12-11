@@ -8,7 +8,7 @@ body {
   }
   
   a:hover {
-    color: #d9ba85;
+    color: #d9ba85 !important;
     text-decoration: none;
   }
 
@@ -398,7 +398,7 @@ body {
   }
 
   .container.container-main{
-    margin-top:200px;
+    margin-top:150px;
     margin-bottom: 100px;
     display: flex;
   }

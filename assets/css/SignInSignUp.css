@@ -1,5 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: #CCCCCC;
   }
   
   a {
@@ -60,6 +61,12 @@ body {
     padding-left: 10px;
   }
   
+  #topbar .languages ul li+li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    content: "/";
+  }
   
   /*--------------------------------------------------------------
   # Header
@@ -390,119 +397,64 @@ body {
   .navbar-mobile .dropdown>.dropdown-active {
     display: block;
   }
+/*============***==============*/
 
-  .container-detail{
-    margin-top: 200px;
-  }
+.container.body{
+    height: 100%;
+}
 
-  .container-detail .product{
-    display: flex;
-  }
-
-  @media(max-width:768px){
-    .container-detail .product{
-      display: block;
-    }
-  }
-
-  .container-detail .image img{
-    width: 500px;
-  }
-
-  .container-detail .product .info{
-    margin-left: 100px;
-  }
-
-  .container-detail .product .info .name{
-    font-size: 30px;
-    font-weight: 600;
-  }
-
-  .container-detail .product .info .price{
-    font-size: 24px;
-    font-weight: 500;
-
-  }
-
-  .container-detail .product .info .count{
-    display: flex;
-    margin: 25px 0;
-  }
-
-  .container-detail .product .info .count .btn-up{
-    border: none;
-    width: 35px;
-    height: 35px;
-  }
-
-  .container-detail .product .info .count .btn-down{
-    border: none;
-    width: 35px;
-    height: 35px;
-  }
-
-  .container-detail .product .info .count input{
-    width: 35px;
-    height: 35px;
+.container.container-signup{
+    width: 400px;
     text-align: center;
-  }
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px 10px;
+    margin-top: 150px;
+    margin-bottom:50px;
+    box-shadow: 1px 1px 1px 1px #DDDDDD;
+}
 
-  .container-detail .product .info .count .add-product{
-    background-color: #990000;
-    color: white;
-    padding: 8px 20px;
-    margin-left: 40px;
-  }
-
-  .container-detail .product .info .count .add-product:hover{
-    background-color: #660000;
-    color: white !important;
-  }
-
-  .container-detail .product .info .policy{
-    padding-left: 16px;
-    margin-top: 20px;
-  }
-
-  .container-detail .product .info .policy li{
-    padding: 8px 0;
-  }
-
-  .container-detail .product .info .icon-socials i{
+.container.container-signup h1{
     font-size: 30px;
-    margin-right: 16px;
-  }
-
-  .parameters-product ul{
-    padding: 0;
-    list-style: none;
-    margin-top: 50px;
-  }
-
-  .parameters-product ul li{
-    width: 500px;
-    display: flex;
-    padding:12px 0;
-    border-bottom: 1px solid #DDDDDD;
-    justify-content: space-between;
-  }
-
-  .parameters-product ul li.thongtin{
-    font-weight: 700;
-    font-size: 18px;
-  }
-
-  .parameters-product ul li .title{
     font-weight: 500;
-  }
+}
 
-  .parameters-product ul li .parameters{
-    color: #777777;
-  }
-  
-  /*--------*----------------------------*/
+.container.container-signup .form .form-control{
+    border: none;
+    padding: 18px;  
+    background-color: #FFFFFF;
+}
 
-  #footer {
+.container.container-signup .form .form-control .form-input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid grey;
+    background-color: #FFFFFF;
+    outline: none;
+}
+
+.container.container-signup .form .btn-submit{
+    margin: 20px 0;
+    width: 220px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: #000066;
+    transition: 0.1s;
+}
+
+.container.container-signup .form .btn-submit:hover{
+    background-color:#DDDDDD ;
+    color:black;
+}
+
+/*===============***============*/
+
+#footer {
     background: black;
     padding: 0 0 30px 0;
     color: #fff;
@@ -597,33 +549,34 @@ body {
 }
 
 .list-menu{
-    padding: 0;
-  }
-  
-  .list-menu .item-blog {
-      display: flex;
-  }
-  
-  .list-menu .item-blog .info {
-      margin-left: 10px;
-  }
-  
-  .list-menu .item-blog .info .enti-title a {
-      color: white;
-  }
-  
-  .list-menu .item-blog .info .post-time {
-      color: #c1c1c1;
-  }
-  
-  #footer .copyright {
-      text-align: center;
-      padding-top: 30px;
-  }
-  
-  #footer .credits {
-      padding-top: 10px;
-      text-align: center;
-      font-size: 13px;
-      color: rgb(255, 255, 255);
-  }
+  padding: 0;
+}
+
+.list-menu .item-blog {
+    display: flex;
+}
+
+.list-menu .item-blog .info {
+    margin-left: 10px;
+}
+
+.list-menu .item-blog .info .enti-title a {
+    color: white;
+}
+
+.list-menu .item-blog .info .post-time {
+    color: #c1c1c1;
+}
+
+#footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
