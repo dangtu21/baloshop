@@ -89,7 +89,7 @@ body {
     color: #fff;
     background-color: #000;
     font-size: 18px;
-    padding:0.5em 2em;
+    padding:4px 20px;
     width: auto;
   }
   .quantity{
@@ -105,9 +105,10 @@ body {
     height: 36px !important;
   }
   .lydo {
-    list-style: disc;
+    list-style: disc !important;  
     font-family: "Quicksand", sans-serif;
     color: #494949;
+    padding-left: 16px;
   }
   .lydo li {
     display: list-item;

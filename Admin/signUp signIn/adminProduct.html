@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <img src="" alt="">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body onload="renderDate(listProducts)">
+    <div class="form">
+            <label for="search"></label>
+            <input oninput="searchProduct()" type="text"  id="search" placeholder="search">
+        <div class="form-control">
+            <label for="Image">Ảnh: </label>
+            <input type="text" class="form-input" id="image" src="">
+            <div class="error-message"></div>
+        </div>
+
+        <div class="form-control">
+            <label for="name">Tên sản phẩm: </label>
+            <input type="text" class="form-input" id="name">
+            <div class="error-message"></div>
+        </div>
+
+        <div class="form-control">
+            <label for="price">Giá: </label>
+            <input type="text" class="form-input" id="price">
+            <div class="error-message"></div>
+        </div>
+
+        <div class="form-control">
+            <input type="hidden"  id="index">
+        </div>
+
+        <button id="save" onclick="addnew()">Thêm sản phẩm</button>
+        <button id="update" onclick="changeProduct()" style="display:none">Lưu</button>
+
+    </div>
+
+    <table border="1" cellpadding="10" cellspacing="0" id="tableContent">
+        
+    </table>
+</body>
+
+</html>
