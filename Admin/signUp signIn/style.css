@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:lightblue;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    padding: 35px;
+}
+
+.container-signin{
+    position: relative;
+    top:90px;
+    left: 350px;
+}
+
+.container-signup{
+    position: relative;
+    left: 350px;
+    top:5px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.form-control{
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.form-control input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #adadad;
+}
+
+.form-control span{
+    position: absolute;
+    border-bottom: 3px solid blue;
+    width: 0;
+    left: 0;
+    top:38px;
+    transition: 0.25s;
+}
+
+.form-control input:focus~span{
+    width: 100%;
+}
+
+.form-control.error input{
+    border-bottom: 2px solid red;
+}
+
+.error-message{
+    color:red;
+}
+
+.form #signup-link{
+    margin-left: 92px;
+}
+
+.form #signup-link a{
+    text-decoration: none;
+    color:blue;
+}
+
+.form #signup-link a:hover{
+    filter: brightness(200%);
+}
+
+.btn-submit{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    font-size:18px ;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.btn-submit:hover{
+    background-color: #069a;
+}
+
+.container .signup-link {
+    margin-left: 95px;
+}
+
+.container .signup-link a{
+    text-decoration: none;
+    color:blue;
+}
+
+.container .signup-link a:hover{
+    text-decoration: underline;
+}
