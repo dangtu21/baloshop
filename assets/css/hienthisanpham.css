@@ -629,6 +629,7 @@ body {
   .cart-title-item{
     text-decoration: none;
     color: #000;
+    padding: 10px 0;
   }
   .nav2 > li > a {
     color:#000;
@@ -723,6 +724,7 @@ a{
 }
 .portfolio-links{
   height: 20%;
+  margin-top: 10px;
 }
  
 

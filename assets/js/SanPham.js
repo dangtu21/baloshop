@@ -49,7 +49,6 @@ function sanpham(){
 	var src ="";
 	switch(tem[0]){
 
-		//Duoi 24 thang tuoi
 		case '0':
 		{
             var ten = "Balo";
@@ -65,8 +64,24 @@ function sanpham(){
 			break;
 		}
 
-		//Tren 24 thang tuoi
+		//Duoi 24 thang tuoi
 		case '1':
+		{
+            var ten = "Balo";
+            var trongluong = new Array(300,400,500,600,400,300,400,500,600,400,300,400,500,600,400,300,400,500,600,400);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip");
+            var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black", "red","Brown","green", " yehlow","black", "red","Brown","green", " yehlow","black", "red","Brown")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2","Carhartt Philis Backpack");
+			
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000","880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000","880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000","990.000","599.000");
+			src += './assets/img/balo/';
+			break;
+		}
+
+		//Tren 24 thang tuoi
+		case '2':
 		{
             var ten = "Phụ Kiện";
             var trongluong = new Array(300,400,500,600,400,300,400,500);
@@ -80,7 +95,7 @@ function sanpham(){
 			src += './assets/img/phukien/';
 			break;
 		}
-		case '2':
+		case '3':
 		{
             var ten = "SALE OFF 50%";
             var trongluong = new Array(300,400,500,600,400,300,400,500);
@@ -94,7 +109,7 @@ function sanpham(){
 			src += './assets/img/seleOff/';
 			break;
 		}
-		case '3':
+		case '4':
 		{
             var ten = "Túi Xách";
             var trongluong = new Array(300,400,500,600,400,300,400,500);
@@ -108,7 +123,7 @@ function sanpham(){
 			src += './assets/img/tuixach/';
 			break;
 		}
-		case '4':
+		case '5':
 		{
             var ten = "Uncategorized";
             var trongluong = new Array(300,400,500,600,400,300,400,500);
@@ -122,6 +137,207 @@ function sanpham(){
 			src += './assets/img/Uncategorized/';
 			break;
 		}
+		case '6':
+		{
+            var ten = "Marc Jacobs";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+			
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+			src += './assets/img/Uncategorized/';
+			break;
+		}
+		case '7':
+		{
+            var ten = "Octopus";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+			
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+			src += './assets/img/Uncategorized/';
+			break;
+		}
+		case '8':
+		{
+            var ten = "Samsonite";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+			
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+			src += './assets/img/Uncategorized/';
+			break;
+		}
+		case '9':
+		{
+            var ten = "Sandqvist";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+			
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+			src += './assets/img/Uncategorized/';
+			break;
+		}
+		case '10':
+		{
+            var ten = "The North Face";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+			
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+			src += './assets/img/tuixach/';
+			break;
+		}
+		case '11':
+		{
+            var ten = "5.11 Tatical";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+			
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+			src += './assets/img/tuixach/';
+			break;
+		}
+		case '12':
+		{
+            var ten = "Adidas";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+			
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+			src += './assets/img/balo/';
+			break;
+		}
+		case '13':
+		{
+            var ten = "Burton";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+			
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+			src += './assets/img/balo/';
+			break;
+		}
+		case '14':
+			{
+				var ten = "Burton";
+				var trongluong = new Array(300,400,500,600,400,300,400,500);
+				var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+				var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black")
+				var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+				var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+				var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+				
+				var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+				src += './assets/img/balo/';
+				break;
+			}
+		
+		case '15':
+				{
+					var ten = "Coach";
+					var trongluong = new Array(300,400,500,600,400,300,400,500);
+					var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+					var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black")
+					var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+					var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+					var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+					
+					var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+					src += './assets/img/balo/';
+					break;
+				}
+		case '16':
+			{
+				var ten = "Fjallraven";
+				var trongluong = new Array(300,400,500,600,400,300,400,500);
+				var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+				var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black")
+				var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+				var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+				var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+				
+				var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+				src += './assets/img/balo/';
+				break;
+			}	
+		
+		case '17':
+			{
+				var ten = "Nike";
+				var trongluong = new Array(300,400,500,600,400,300,400,500);
+				var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+				var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black")
+				var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+				var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+				var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+				
+				var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+				src += './assets/img/balo/';
+				break;
+			}	
+
+		case '18':
+			{
+				var ten = "Puma";
+				var trongluong = new Array(300,400,500,600,400,300,400,500);
+				var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+				var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black")
+				var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+				var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+				var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+				
+				var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+				src += './assets/img/balo/';
+				break;
+			}
+
+		case '19':
+			{
+				var ten = "Vans";
+				var trongluong = new Array(300,400,500,600,400,300,400,500);
+				var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+				var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black")
+				var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+				var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+				var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+				
+				var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
+				src += './assets/img/balo/';
+				break;
+			}			
+					
 	}		
 			
 			dem=0;
