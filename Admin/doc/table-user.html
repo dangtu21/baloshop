@@ -31,7 +31,7 @@
 
         <div class="user">
             <div class="user-avatar">
-                <img src="/images/admin.jpg" alt="">
+                <img src="../images/admin.jpg" alt="">
             </div>
             <div class="user-name"><b>Admin</b></div>
             <div class="user-disignation">Chào mừng bạn trở lại</div>
@@ -74,7 +74,7 @@
 
         <div class="user">
             <div class="user-avatar">
-                <img src="/images/admin.jpg" alt="">
+                <img src="../images/admin.jpg" alt="">
             </div>
             <div class="user-name"><b>Admin</b></div>
             <div class="user-disignation"><p>Chào mừng bạn trở lại</p></div>
@@ -243,6 +243,18 @@
             </div>
         </div>
     </div>
-    <script src="/doc/js/edit.js"></script>
+    <script>
+    function Unlock(){
+    document.getElementById("unlock").style.display="none";
+    document.getElementById("lock").style.display="block";
+    alert("Mở khóa thành công")
+}
+
+function Locks(){
+    document.getElementById("unlock").style.display="block";
+    document.getElementById("lock").style.display="none";
+    alert("Khóa người dùng")
+}
+    </script>
 </body>
 </html>

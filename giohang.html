@@ -55,8 +55,8 @@
 
       <div class="languages d-none d-md-flex align-items-center">
         <ul>
-          <li><a href="#">Đăng kí</a></li>
-          <li><a href="#">Đăng nhập</a></li>
+          <li><a href="signUp.html">Đăng kí</a></li>
+          <li><a href="signIn.html">Đăng nhập</a></li>
         </ul>
       </div>
     </div>
@@ -163,7 +163,7 @@
                 <strong class="cart-total-title">Tổng Cộng:</strong>
                 <span class="cart-total-price">1.360.000đ</span>
               </div>
-                <button  type="button" class="btn btn-primary1 order">
+                <button onclick="AlertCart()"  type="button" class="btn btn-primary1 order">
                     <strong>Thanh Toán<br/></strong>
                     <span class="cart-total-price"></span>
                 </button>
@@ -171,7 +171,7 @@
           </div>
           <div class="address">
             <div class="header-address">
-                <h2 class="header2">Chi tiết địa chỉ</h2>
+                <h2 class="header2">Thông tin</h2>
             </div>
             <div class="body-address">
                 <form action="/action_page.php">
@@ -478,5 +478,6 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/modal.js"></script>
   </body>

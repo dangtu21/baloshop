@@ -55,12 +55,12 @@ function sanpham(){
             var ten = "Balo";
             var trongluong = new Array(300,400,500,600,400,300,400,500,600,400,300,400,500,600,400,300,400,500,600,400);
             var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip");
-            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yellow","black", "red","Brown","green", " yehlow","black", "red","Brown","green", " yehlow","black", "red","Brown")
+            var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black", "red","Brown","green", " yehlow","black", "red","Brown","green", " yehlow","black", "red","Brown")
             var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm") ;
             var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas")
 			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2","Carhartt Philis Backpack");
 			
-			var gia = new Array(680,350,4199,850,699,680,350,4199,850,699,680,350,4199,850,699,680,350,4199,850,699);
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000","880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000","880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000","990.000","599.000");
 			src += './assets/img/balo/';
 			break;
 		}
@@ -71,12 +71,12 @@ function sanpham(){
             var ten = "Phụ Kiện";
             var trongluong = new Array(300,400,500,600,400,300,400,500);
             var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
-            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black")
+            var mausac = new Array("green", " yellow","black", "red","Brown","green", " yehlow","black")
             var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
             var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
 			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
 			
-			var gia = new Array(680,350,4199,850,699,680,350,);
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
 			src += './assets/img/phukien/';
 			break;
 		}
@@ -85,12 +85,12 @@ function sanpham(){
             var ten = "SALE OFF 50%";
             var trongluong = new Array(300,400,500,600,400,300,400,500);
             var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
-            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black")
+            var mausac = new Array("green", " yellow","black", "red","Brown","green", " yehlow","black")
             var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
             var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
 			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
 			
-			var gia = new Array(680,350,4199,850,699,680,350,);
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
 			src += './assets/img/seleOff/';
 			break;
 		}
@@ -99,12 +99,12 @@ function sanpham(){
             var ten = "Túi Xách";
             var trongluong = new Array(300,400,500,600,400,300,400,500);
             var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
-            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black")
+            var mausac = new Array("green", " yellow","black", "red","Brown","green", " yellow","black")
             var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
             var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
 			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
 			
-			var gia = new Array(680,350,4199,850,699,680,350,);
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
 			src += './assets/img/tuixach/';
 			break;
 		}
@@ -118,7 +118,7 @@ function sanpham(){
             var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
 			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
 			
-			var gia = new Array(680,350,4199,850,699,680,350,);
+			var gia = new Array("880.000","999.000","1.039.000","770.000","880.000","1.039.000","770.000");
 			src += './assets/img/Uncategorized/';
 			break;
 		}
@@ -127,7 +127,7 @@ function sanpham(){
 			dem=0;
 			for(i=vitri; i < sp.length; i++){
 				dem++;
-				s =s +  "<div class=\"cart-row\"><div class=\"portfolio-wrap\">" + "<img src=" + src + "balo"+ i + "/1" + ".jpg class=\"img-fluid\" alt=\"\" width=\"415px\" height=\"315px\"><div class=\"portfolio-links\"><a href=\"chitietcopy.html?"+tem[0]+"&"+ i +"\" title=\"More Details\" class=\"cart-title-item\">" + sp[i] + "</a><br/><b class=\"cart-price\">" + Number(gia[i]).toLocaleString() + "$</b> </div></div></div>";
+				s =s +  "<div class=\"cart-row\"><div class=\"portfolio-wrap\">" + "<a href=\"chitietcopy.html?"+tem[0]+"&"+ i +"\"><img src=" + src + "balo"+ i + "/1" + ".jpg class=\"img-fluid\" alt=\"\" width=\"415px\" height=\"315px\"><div class=\"portfolio-links\"></a><a href=\"chitietcopy.html?"+tem[0]+"&"+ i +"\" title=\"More Details\" class=\"cart-title-item\">" + sp[i] + "</a><br/><b class=\"cart-price\">" + gia[i] + "đ</b> </div></div></div>";
 				if(dem == 9) break;
 			}
 			
