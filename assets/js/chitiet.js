@@ -37,7 +37,7 @@ function ChiTiet(){
             var ten = "Balo";
             var trongluong = new Array(300,400,500,600,400,300,400,500,600,400,300,400,500,600,400,300,400,500,600,400);
             var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip");
-            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black", "red","Brown","green", " yehlow","black", "red","Brown","green", " yehlow","black", "red","Brown")
+            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yellow","black", "red","Brown","green", " yehlow","black", "red","Brown","green", " yehlow","black", "red","Brown")
             var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm") ;
             var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas")
 			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2","Carhartt Philis Backpack");
@@ -49,63 +49,62 @@ function ChiTiet(){
 
 		//Tren 24 thang tuoi
 		case '1':
-		{   var ten = "Balo";
-			var sp = new Array("Sữa Morinaga Số 2 - Chilmil (850g)","Sữa Bột Frisolac Gold 4 Cho Trẻ Từ 2-4 Tuổi 1500g","Sữa Bột Abbott Grow G-Power Vanilla GGL Dành Cho Trẻ Từ 3 - 6 Tuổi (1700g)","Sữa Bột Meiji Nội Địa Step Milk Số 9 (800g)","Sữa Wakodo Lebens 2 - LXU12 (850g)","Sữa Bột Abbott Similac IQ4 HMO (1.7kg)","Sữa Bột Abbott Grow 4 DHA AW4M Dành Cho Trẻ 2 Tuổi Trở Lên (900g)","Cowala Instant Whole Milk Powder","Sữa Bột Frisolac Gold 5 Dành Cho Bé Từ 4 Tuổi Trở Lên 900g","Sữa Bột Vinamilk Dielac Alpha Gold Step 4 (900g)","Sữa Dinh Dưỡng Công Thức Physiolac Croissance 3 (900g)","Sữa Công Thức HiPP 4 Junior Combiotic (800g)","Sữa bột nguyên kem của NutiFood 900 Gr","Sữa bột S26 Gold Junior số 4 (900g)","Sữa bột Wincofood Goldcare Grow","Nuvita GROW 3+dành cho trẻ từ 3 tuổi trở lên","Sữa Bột Vinamilk Dielac Optimum Gold Step 3 (900g)","Sữa bột SmartA IQ 4 hỗ trợ phát triển não bộ & dinh dưỡng cho bé 3-10 tuổi","Sữa bột France Lait 3 (900g)","Sữa Tăng Miễn Dịch, phát triển chiều cao cho trẻ Nucleo Gold 900g","Sữa bột Nutricare Metacare 4 Mới - phát triển toàn diện cho trẻ 3-6 tuổi (400g, 900g)","CRM - Sữa Enfamil A + 1 360° Brain DHA+ MFGM PRO (400g)","Sữa Bột Similac IQ Plus HMO số 4 hương Vanilla lon 900g","Sữa P100 900G - dành cho trẻ biếng ăn, suy dinh dưỡng, bệnh, phục hồi bệnh","Eneright Diamond Nutrient Kid số 2 700g : sữa cho trẻ suy dinh dưỡng, thấp còi từ 36 tháng tuổi trở lên","Riso opti gold 4- dinh dưỡng đặc chế cho hệ tiêu hóa khỏe mạnh","Sữa bột Nefesure Horu IQ Grow (800 gram)","Sữa bột Nefesure TiTan Plus (40gram x 23 thanh)","Lốc 4 Hộp Sữa Bột Pha Sẵn Friso Gold Vani (4 x 180ml)");
-			var gia = new Array(450000,650000,623000,380000,489000,762000,298000,265000,309000,209000,350000,469000,150000,365000,175000,185000,329000,265000,488000,343000,250000,278000,439000,450000,325000,350000,380000,395000,560000);
-			src = "./image/tren24/";
+		{
+            var ten = "Phụ Kiện";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
+			
+			var gia = new Array(680,350,4199,850,699,680,350,);
+			src += './assets/img/phukien/';
 			break;
 		}
-		//Sua bo sung Canxi cho xuong
 		case '2':
 		{
-            var ten = "Balo";
-			var sp = new Array("Sữa bột Nutricare Bone Mới phòng loãng xương cải thiện xương khớp (400g, 900g)","SỮA GOLDSURE CANXI DÀNH CHO NGƯỜI GIÀ LOÃNG XƯƠNG VÀ TIỂU ĐƯỜNG LON 900g","Sữa Eurofit Gold 900g (Dành cho người trưởng thành,người trung và cao tuổi, người có nguy cơ loãng xương, thiếu canxi, người ốm cần phục hồi sức khỏe)","Sữa Bột dinh dưỡng giúp bảo vệ sụn khớp Cho Người Lớn Tuổi Dr. Lucen Bonemax (900g)","Sữa bổ sung canxi Anlene Gold 800g","SỮA NUTIFOOD DR LUCEN XƯƠNG KHỚP 900G","Sữa bột Nucalci cho người 19-50 tuổi loại 800g - nucalci","HI-CANXI hiệu GIGO Gold 900 gr : sữa bột dinh dưỡng ngừa loãng xương & tiểu đường cho người trưởng thành","Sữa Bột Vinamilk Sure Prevent (900g)","Sữa Oldlac Calcium Collagen Type II (19 - 45 Tuổi)","Sữa bột Vinamilk Canxi Pro hộp 400g","Sữa bột Gigo Canxi-Nano Gold 900g","Sữa bột Goldcare dưỡng chất ít béo, bổ sung Canxi 900g","Sữa bột Gigo Care 900g","Sữa bột giúp phòng ngừa loãng xương, xơ vữa động mạch và tiểu đường GIGO SURE Hồng sâm 900 Gr (JISENG)","Sữa bột Bonecare dưỡng chất cho xương và khớp 900g","Sữa bột Anlene Gold hương vani hộp 400g","Sữa bột Anlene 400g (Hộp giấy)");
-			var gia = new Array(165000,188000,430000,370000 ,436000 ,234000 ,180000 ,260000 ,405000 ,348000 ,139300,250000,175000 ,295000,270000,249000 ,193600,172000);
-			src="./image/canxi/";
-			break;
+            var ten = "SALE OFF 50%";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
 			
+			var gia = new Array(680,350,4199,850,699,680,350,);
+			src += './assets/img/seleOff/';
+			break;
 		}
-		//Sua cho me bau
 		case '3':
 		{
-            var ten = "Balo";
-			var sp = new Array("Sữa Bột Frisomum Gold Hương Cam (900g)","Sữa Bột Frisomum Gold Hương Cam (400g)","Sữa Bột Similac Mom Hương Vani (900g)","Sữa Bột Frisomum Gold Hương Vani (400g)","Sữa Bột Similac Mom Hương Sữa Chua Dâu (400g)","Sữa Bột Frisomum Gold Hương Vani (900g)","Sữa Bột Similac Mom Hương Vani (400g)","Sữa bầu Enfamama A+ Vanilla hộp 900g","Sữa bầu Enfamama A+ Vanilla 400g","Sữa bầu Morinaga vị trà sữa (216g)","Sữa Friso Gold Mum hương Vanilla 900g","Sữa Friso Gold Mum hương Cam 900g","SỮA ANMUM Chocolate 800G","Sữa Bà Bầu Fonterra Anmum Materna Hương Vani Hộp 800g (Dành cho bà mẹ mang thai và cho con bú)","Sữa Bà Bầu Nutifood Nuti IQ Gold Mum Hương Vanilla Hộp 900g (Bà mẹ mang thai và cho con bú)","Sữa bột Dielac Mama Gold- Hộp thiếc 900g_Sữa bầu cho mẹ","Sữa bầu Morinaga cà phê","Sữa bột Optimum Mama Gold - Hộp thiếc 900g_Sữa bầu cho mẹ","Sữa bột Dolsure Mum Fruity 900gr","Sữa Wakodo Lebens Mom 850g","Sữa Bầu Meiji Mama 350g","SỮA THANH BẦU MORINAGA VỊ TRÀ XANH - NHẬT (12 gói x 18g)");
-			var gia = new Array(489000 ,244000 ,434000 ,244000 ,210000 ,489000 ,215000 , 475000 ,230000 ,215000 ,459000,455000,352000,365000 ,175000,236390 ,240000 ,371470 ,391914 ,409000 ,159000 ,235000);
-			src="./image/mebau/";
-			break;
+            var ten = "Túi Xách";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
 			
+			var gia = new Array(680,350,4199,850,699,680,350,);
+			src += './assets/img/tuixach/';
+			break;
 		}
-		//Sua IQ
 		case '4':
 		{
-            var ten = "Balo";
-			var sp = new Array("Sữa bột Similac Newborn IQ (900g)","Sữa Similac Newborn IQ HMO 400g","Sữa Similac Gain IQ 2 900g","Sữa Similac HMO số 2 IQ 400g","Sữa Nuti IQ Step 3 900G","Sữa Similac HMO số 3 IQ (900g)","Sữa Bột Nuti IQ Step 2 (400g)","Sữa bột Insulac IQ Infant 900g (Mỹ)","Sữa bột NutiFood Nuti IQ Gold Step 4 (900g)","Sữa Nuti IQ Step3 Gold 900G","Sữa Similac IQ Plus số 3 - 400g (1-2 tuổi)","Sữa bột SmartA IQ 1 hỗ trợ phát triển não bộ & dinh dưỡng cho bé 0-6 tháng tuổi (400g)","Sữa bột SmartA IQ 2 dinh dưỡng hỗ trợ phát triển não bộ cho bé 6-12 tháng tuổi (400g)","Sữa Similac IQ HMO số 4 900g","Sữa Vita IQ Gold 3 - SS-VIG3","Sữa bột Nefesure Horu IQ Grow (800 gram)","Sữa bột Vinamilk Dielac Alpha Gold IQ Step 4 - 900g - ALpha gold IQ 4","Sữa Bột Similac IQ 3 1.7kg");
-			var gia = new Array(561000,279400 ,552000,273900 ,159000 ,496100 ,99000 ,698000 ,189000 ,215000,195000,180000 ,469700 ,410000 ,380000 ,196000 ,150000 ,789000);
-			src="./image/iq/";
-			break;
+            var ten = "Uncategorized";
+            var trongluong = new Array(300,400,500,600,400,300,400,500);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhart400t Wip","NIKE","LOVE","PUMA");
+            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack ","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack");
 			
-		}
-		//Sua suy dinh duong
-		case '5':
-		{
-            var ten = "Balo";
-			var sp = new Array("Sữa P100 900G - dành cho trẻ biếng ăn, suy dinh dưỡng, bệnh, phục hồi bệnh","Sữa dinh dưỡng Morinaga Kodomil cho trẻ suy dinh dưỡng, thấp còi trên 18 tháng tuổi Nhật Bản vị vani","Sữa dinh dưỡng Morinaga Kodomil cho trẻ suy dinh dưỡng, thấp còi trên 18 tháng tuổi Nhật Bản vị dâu","Sữa bột GrowsPlus + Suy dinh dưỡng lon 900g","Sữa bột NutriniDrink Neutral 400g- cho trẻ suy dinh dưỡng","Sữa bột Nutrison Powder 430g- cho suy dinh dưỡng, suy nhược, tiêu hóa kém","Eneright Diamond Nutrient Kid số 2 700g : sữa cho trẻ suy dinh dưỡng, thấp còi từ 36 tháng tuổi trở lên","Sữa bột Hanie Kid 1 dành cho trẻ biếng ăn & suy dinh dưỡng 0-6 tháng tuổi (900g)","Sữa Nutricare Care 100 Gold cho trẻ biếng ăn suy dinh dưỡng 1-10 tuổi (900g)","Sữa bột Hanie Kid 2 dành cho trẻ biếng ăn & suy dinh dưỡng 6-12 tháng tuổi (400g)","Sữa cho trẻ 0-12 tháng bị suy dinh dưỡng thấp còi NutiFood Grow plus+ đỏ (780 g)","Sữa goldsure growplus suy dinh dưỡng thấp còi lon 900g","Sữa bột Medibest Ba Gold – Giải pháp khắc phục tình trạng biếng ăn, suy dinh dưỡng","Sữa Nutren Junior - Cho Trẻ Suy Dinh Dưỡng, Kém Hấp Thu 400g","Sữa tăng cân diamond nutrientkid số 1 cho bé còi xương suy dinh dưỡng hộp 700g","Sữa bột dành cho người suy dinh dưỡng NUTIFOOD EnPlus Gold 900g","Sữa Calo KID 900g cho trẻ biếng ăn suy dinh dưỡng","Sữa dành cho trẻ suy dinh dưỡng thấp còi Nutifood GrowPLUS+ Đỏ 1,5kg","Sữa non Goodhealth 9% 175 gr : Dinh dưỡng cho người ốm , trẻ suy dinh dưỡng","Sữa Eneric Kid 2 dành cho trẻ biếng ăn suy dinh dưỡng");
-			var gia = new Array(450000 ,255000 ,255000 ,331000 ,330000 ,380000 ,325000 ,420000 ,320000 ,190000 ,330000 ,268000 ,360000 ,320000 ,329000 ,288000 ,375000 ,435000 ,425000 ,340000);
-			src="./image/suydinhduong/";
+			var gia = new Array(680,350,4199,850,699,680,350,);
+			src += './assets/img/Uncategorized/';
 			break;
-			
 		}
-		//Sua tang truong
-		case '6':
-		{
-            var ten = "Balo";
-			var sp = new Array("Sữa tăng trưởng dành cho trẻ 0-6 tháng France Lait 1 (900g)","Sữa bột giúp tăng trưởng chiều cao cho trẻ từ 1-17 tuổi Gigo Opti Grow 900 Gr","SỮA GOLDSURE GROW TĂNG TRƯỞNG CHIỀU CAO LON 900G (CAO CẤP)","Sữa Tăng Miễn Dịch, phát triển chiều cao cho trẻ Nucleo Gold 900g","Sữa nutren junior tăng cân cho bé hộp 800g","Sữa tăng cân New Milky Extra 1kg","Sữa Bột Tăng Cân Khỏe Mạnh Grow Plus+ 900G (Chỉ Giao TPHCM)","Sữa Clinutren Juinior","Sữa tăng cân T470 Pedia 900g (6-36 tháng)","Sữa tăng cân kidesent úc hộp 850g","sữa tăng cân cho người gầy GOLDMILK WEIGHT GAIN (900g)","Sữa Ensure Gold 400g","Sữa Nutricare God 400g","Sữa tăng cân cho người gầy Weight Gain 900g","Sữa Tăng Cân Top Mass Gold Cho Người Gầy 800g, Socola","SỮA NUTIFOOD DR LUCEN GAIN MAX (DÀNH CHO NGƯỜI GẦY) (hộp 900g) ","Sữa bột Natumil dành cho người gầy 900g - Natumilgay","sữa OGGI dành cho người gầy - 023","Sữa Bột Cho Trẻ Tăng Cân Nutifood Grow Plus+ (Hộp Giấy 400G)","Sữa tăng chiều cao Hikid Hàn Quốc - hikid");
-			var gia = new Array(430000 ,260000 ,278000 ,367000 ,545000 ,285000,188000 ,395000 ,340000 ,549000 ,320000 ,247000,343000 ,280000,254000 ,290000 ,298000 ,545000,500000,500000);
-			src="./image/tangtruong/";
-			break;
-			
-		}
-	}
+	}	
 	var s="";
 	s += '<div class="title"><a href="">Trang Chu</a>/<a href="">'+ ten + '</a></div><div id="content"><div id="photo"><img src="'+src+'balo'+ x +'/1.jpg"  alt="IMG"></div><div id="chitiet"><h1>'+ sp[x] + '</h1><div class="is-divider small"></div><span class="cart-price" style="font-size: 25px;">'+ Number(gia[x]).toLocaleString() +'$</span><form class="cart" action="" method="post" enctype="multipart/form-data"><div class="quantity buttons_added"><input type="button" value="-" class="minus button is-form"><input type="number" id="quantity_6387668eae1bd" class="input-text qty text" step="1" min="1" max="9999" name="quantity" value="1" title="SL" size="4" inputmode="numeric"><input type="button" value="+" class="plus button is-form"></div><button type="submit" name="add-to-cart" value="27779" class="single_add_to_cart_button button alt">Thêm vào giỏ hàng</button></form><p>TAI SAO LAI CHON BALOSHOP</p><ol class="lydo"><li>Đại lý chính hãng hơn 30 thương hiệu hàng đầu</li><li>Đổi trả 30 ngày nếu không hài lòng</li><li>Hoàn tiền nếu không hài lòng sản phẩm</li><li>Bảo hành sản phẩm lên đến 01 năm</li> </ol><div class="social-links mt-3 text-center"><a href="https://www.facebook.com/nong.than.944" class="twitter"><i class="bx bxl-twitter"></i></a><a href="https://www.facebook.com/nong.than.944" class="facebook"><i class="bx bxl-facebook"></i></a><a href="https://www.facebook.com/nong.than.944" class="instagram"><i class="bx bxl-instagram"></i></a><a href="https://www.facebook.com/nong.than.944" class="google-plus"><i class="bx bxl-skype"></i></a><a href="https://www.facebook.com/nong.than.944" class="linkedin"><i class="bx bxl-linkedin"></i></a></div></div></div><div id="info"><p>Thông tin</p><table class="thongtin">      <tr><th>TRỌNG LƯỢNG</th><td>'+trongluong[x]+ 'g<td></tr><tr><th>THƯƠNG HIỆU</th><td>'+thuonghieu[x]+ '<td></tr><tr><th>MÀU SẮC</th><td>' + mausac[x] +'<td></tr><tr><th>KÍCH THƯỚC</th><td>'+ kichthuoc[x]+'<td></tr><tr><th>CHẤT LIỆU</th><td>'+chatlieu[x]+'<td></tr></table></div><div id="mota"><p>Mô Tả</p><table><tr><th></th></tr></table></div><div id="sanphamtuongtu"></div>';
     

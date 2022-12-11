@@ -132,7 +132,8 @@ body {
     font-size: 14px;
     transition: all 0.4s;
     z-index: 996;
-   background: rgba(12, 11, 9, 0.8);;
+    background-color: #5e566e;
+
   }
   
   #topbar.topbar-scrolled {
