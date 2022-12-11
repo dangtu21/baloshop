@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Wellcome Shop</title>
+  <title>Giỏ hàng</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!--icon-->
@@ -50,13 +50,13 @@
 
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-phone d-flex align-items-center"><span>+84799721539</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Thứ Hai - Thứ Bảy : 11AM - 23PM</span></i>
       </div>
 
       <div class="languages d-none d-md-flex align-items-center">
         <ul>
-          <li>En</li>
-          <li><a href="#">VN</a></li>
+          <li><a href="#">Đăng kí</a></li>
+          <li><a href="#">Đăng nhập</a></li>
         </ul>
       </div>
     </div>
@@ -66,15 +66,15 @@
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">BALOSHOP</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a style="font-weight: 500;font-size:30px;" href="index.html">BALOSHOP</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="./index.html">TRANG CHỦ</a></li>
+          <li><a class="nav-link scrollto" href="./index.html">TRANG CHỦ</a></li>
           <li><a class="nav-link scrollto" href="./index.html#about">GIỚI THIỆU</a></li>
-          <li class="dropdown"><a href="./hienthisanphamcopy.html?0&0"><span>SẢN PHẨM</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a style="text-decoration: none;" href="./hienthisanphamcopy.html?0&0"><span>SẢN PHẨM</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Khuyến mãi</a></li>
               <li class="dropdown"><a href="./hienthisanphamcopy.html?0&0"><span>Balo</span> <i class="bi bi-chevron-right"></i></a>
@@ -116,177 +116,14 @@
         <p>Giỏ hàng</p>
       </button>
       </a>
-      <!--
-      <div id="myModal" class="modal">
-        
-        <div class="modal-content" style="flex-direction: none">
-          <div class="shopping">
-            <div class="header-shopping">
-                <h2 class="header1">SHOPPING CART</h2>
-            </div>
-            <div class="body-shopping">
-              <div class="cart-items">
-                    <div class="cart-row">
-                        <div class="cart-item cart-column">
-                            <img class="cart-item-image" src="assets/img/portfolio/portfolio-1.jpg" width="100" height="100">
-                            <span class="cart-item-title">
-                                <b>Google home</b><br/>
-                                <span class="cart-price cart-column">2500đ</span>
-                            </span>
-                        </div>
-                        <div class="cart-quantity cart-column">
-                            <input class="cart-quantity-input" type="number" value="1">
-                            <button class="btn-danger ti-close" type="button">   
-                            </button>
-                        </div>
-                    </div>
-                
-                    <div class="cart-row">
-                        <div class="cart-item cart-column">
-                            <img class="cart-item-image" src="assets/img/portfolio/portfolio-1.jpg" width="100" height="100">
-                            <span class="cart-item-title">
-                                <b>Mũi Hàn 500</b>
-                                <span class="cart-price cart-column">25000đ</span>
-                                </span>
-                        </div>
-                        <div class="cart-quantity cart-column">
-                            <input class="cart-quantity-input" type="number" value="1">
-                            <button class="btn-danger ti-close" type="button">
-                            </button>
-                        </div>
-                    </div>
-                    <div class="cart-row">
-                      <div class="cart-item cart-column">
-                          <img class="cart-item-image" src="assets/img/portfolio/portfolio-1.jpg" width="100" height="100">
-                          <span class="cart-item-title">
-                              <b>Mũi Hàn 500</b>
-                              <span class="cart-price cart-column">25000đ</span>
-                              </span>
-                      </div>
-                      <div class="cart-quantity cart-column">
-                          <input class="cart-quantity-input" type="number" value="1">
-                          <button class="btn-danger ti-close" type="button">
-                          </button>
-                      </div>
-                    </div>
-
-              </div>
-              <div class="cart-total" style="color: #000">
-                <strong class="cart-total-title">Tổng Cộng:</strong>
-                <span class="cart-total-price">32000VNĐ</span>
-            </div>
-            </div>
-            <div class="footer-shopping">
-                <button type="button" class="btn btn-primary order">
-                    <strong>Subtotal:<br/></strong>
-                    <span class="cart-total-price"></span>
-                </button>
-            </div>
-            <script src="./main.js"></script>
-          </div>
-          <div class="address">
-            <div class="header-address">
-                <h2 class="header2">Address Dentails</h2>
-            </div>
-            <div class="body-address">
-                <form action="/action_page.php">
-                    <label for="fullname">Full Name:</label><br/>
-                    <input type="text" id="fullname" name="fullname" value="Anh Tu">
-                    <label for="phonenumber">Phone Number</label><br>
-                    <input type="text" id="phonenumber" name="phonenumber" value="+84 799721539">
-                    <label for="emailaddress">Email Address</label><br>
-                    <input type="text" id="emailaddress" name="emailaddress" value="anhtuhanam1@gmail.com">
-                    <div class="state-city">
-                    <div class="blockstate">
-                        <label for="state">State</label>
-                        <br/>
-                        <select id="state" name="state">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="fiat" selected>Fiat</option>
-                            <option value="audi">Audi</option>
-                        </select>
-                    </div>
-                    <div class="blockcity">
-                        <label for="city">City</label>
-                        <br/>
-                        <select id="city" name="city">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="fiat" selected>Fiat</option>
-                            <option value="audi">Audi</option>
-                        </select>
-                        
-                    </div>
-                  </div>
-                  <br/>
-                  <div class="footer-address">
-                    <label for="address">Address:</label><br>
-                    <input type="text" id="address" name="address" value="273 An Duong Vuong, Suite 5"><br>
-                  </div>
-                  </form> 
-                  
-
-            </div>
-          </div>
-          <div class="card">
-            <div class="header-card">
-                <h2 class="header2">Card Dentails</h2>
-            </div>
-            <div class="body-card">
-                <div class="image">
-                    <img src="./assets/img/794-7948518_credit-card-design-and-collaterals-u-s-bank.png" alt="">
-                </div>
-                <form action="/action_page.php">
-                    <label for="namecard">Name of Card</label><br/>
-                    <input type="text" id="namecard" name="namecard" value="Dang Anh Tu"><br>
-                    <label for="cardnumber">Card Number</label><br>
-                    <input type="text" id="cardnumber" name="cardnumber" value="1038 7229 9973"><br>
-                    <div class="date-cvv">
-                        <div class="text">
-                            <label for="expirationdate">Expiration date</label><br/>
-                            <label for="cvv">CVV</label><br/>
-                        </div>
-                            <div class="cvv">
-                                <select id="month" name="month">
-                                    <option value="volvo">11</option>
-                                    <option value="saab">12</option>
-                                    <option value="fiat" selected>mm</option>
-                                    <option value="audi">13</option>
-                                </select>
-                                <select id="year" name="year">
-                                    <option value="volvo">2012</option>
-                                    <option value="saab">2013</option>
-                                    <option value="fiat" selected>yyy</option>
-                                    <option value="audi">2014</option>
-                                </select>
-                                <select id="cvv" name="cvv">
-                                    <option value="volvo">2012</option>
-                                    <option value="saab">2013</option>
-                                    <option value="fiat" selected>yyy</option>
-                                    <option value="audi">2014</option>
-                                </select>
-                            </div>
-                    </div>
-                </form>
-            </div>
-            <div class="footer-card">
-
-            </div>
-          </div>
-          <span class="close">
-            <i class="ti-close"></i>
-          </span>          
-        </div>
-      </div>
-  -->
+      
     </div>
     <script src="./main.js"></script>
   </header><!-- End Header -->        
         <div class="modal1" >
           <div class="shopping">
             <div class="header-shopping">
-                <h2 class="header1">SHOPPING CART</h2>
+                <h3 class="header1">SẢN PHẨM</h3>
             </div>
             <div class="body-shopping">
               <div class="cart-items">
@@ -295,7 +132,7 @@
                             <img class="cart-item-image" src="assets/img/balo/balo0/1.jpg" width="100" height="100">
                             <span class="cart-item-title">
                                 <b>Baloshop</b><br/>
-                                <span class="cart-price">2500$</span>
+                                <span class="cart-price">800.000đ</span>
                             </span>
                         </div>
                         <div class="cart-quantity cart-column">
@@ -310,7 +147,7 @@
                             <img class="cart-item-image" src="assets/img/balo/balo1/1.jpg" width="100" height="100">
                             <span class="cart-item-title">
                                 <b>Baloshop</b>
-                                <span class="cart-price cart-column">25000$</span>
+                                <span class="cart-price cart-column">560.000đ</span>
                                 </span>
                         </div>
                         <div class="cart-quantity cart-column">
@@ -324,53 +161,53 @@
             <div class="footer-shopping">
               <div class="cart-total" style="color: #000">
                 <strong class="cart-total-title">Tổng Cộng:</strong>
-                <span class="cart-total-price">32000VNĐ</span>
+                <span class="cart-total-price">1.360.000đ</span>
               </div>
-                <button type="button" class="btn btn-primary1 order">
-                    <strong>Subtotal<br/></strong>
+                <button  type="button" class="btn btn-primary1 order">
+                    <strong>Thanh Toán<br/></strong>
                     <span class="cart-total-price"></span>
                 </button>
             </div>
           </div>
           <div class="address">
             <div class="header-address">
-                <h2 class="header2">Address Dentails</h2>
+                <h2 class="header2">Chi tiết địa chỉ</h2>
             </div>
             <div class="body-address">
                 <form action="/action_page.php">
-                    <label for="fullname">Full Name:</label><br/>
-                    <input type="text" id="fullname" name="fullname" value="Anh Tu">
-                    <label for="phonenumber">Phone Number</label><br>
+                    <label for="fullname">Họ tên:</label><br/>
+                    <input type="text" id="fullname" name="fullname" value="Đặng Anh Tú">
+                    <label for="phonenumber">Số điện thoại</label><br>
                     <input type="text" id="phonenumber" name="phonenumber" value="+84 799721539">
-                    <label for="emailaddress">Email Address</label><br>
+                    <label for="emailaddress">Email</label><br>
                     <input type="text" id="emailaddress" name="emailaddress" value="anhtuhanam1@gmail.com">
                     <div class="state-city">
                     <div class="blockstate">
-                        <label for="state">State</label>
+                        <label for="state">Tỉnh/Thành phố</label>
                         <br/>
                         <select id="state" name="state">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="fiat" selected>Fiat</option>
-                            <option value="audi">Audi</option>
+                            <option value="volvo">Hồ Chí Minh</option>
+                            <option value="saab">Hà Nội</option>
+                            <option value="fiat" selected>Đà Nẵng</option>
+                            <option value="audi">Kiên Giang</option>
                         </select>
                     </div>
                     <div class="blockcity">
-                        <label for="city">City</label>
+                        <label for="city">Quận/Huyện</label>
                         <br/>
                         <select id="city" name="city">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="fiat" selected>Fiat</option>
-                            <option value="audi">Audi</option>
+                            <option value="volvo">Quận 5</option>
+                            <option value="saab">Quận 1</option>
+                            <option value="fiat" selected>Quận 3</option>
+                            <option value="audi">Quận 7</option>
                         </select>
                         
                     </div>
                   </div>
                   <br/>
                   <div class="footer-address">
-                    <label for="address">Address:</label><br>
-                    <input type="text" id="address" name="address" value="273 An Duong Vuong, Suite 5"><br>
+                    <label for="address">Địa chỉ:</label><br>
+                    <input type="text" id="address" name="address" value="273 An D. Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh"><br>
                   </div>
                   </form> 
                   
@@ -379,20 +216,20 @@
           </div>
           <div class="card1">
             <div class="header-card">
-                <h2 class="header2">Card Dentails</h2>
+                <h2 class="header2">Chi tiết</h2>
             </div>
             <div class="body-card">
                 <div class="image">
                     <img src="./assets/img/794-7948518_credit-card-design-and-collaterals-u-s-bank.png" alt="">
                 </div>
                 <form action="/action_page.php">
-                    <label for="namecard">Name of Card</label><br/>
-                    <input type="text" id="namecard" name="namecard" value="Dang Anh Tu"><br>
-                    <label for="cardnumber">Card Number</label><br>
+                    <label for="namecard">Tên tài khoản</label><br/>
+                    <input type="text" id="namecard" name="namecard" value="Đặng Anh Tú"><br>
+                    <label for="cardnumber">Số tài khoản</label><br>
                     <input type="text" id="cardnumber" name="cardnumber" value="1038 7229 9973"><br>
                     <div class="date-cvv">
                         <div class="text">
-                            <label for="expirationdate">Expiration date</label><br/>
+                            <label for="expirationdate">Ngày hết hạn</label><br/>
                             <label for="cvv">CVV</label><br/>
                         </div>
                             <div class="cvv">
@@ -522,10 +359,124 @@
                     </div>
                 </form>
             </div>
-            <div class="footer-card">
-
-            </div>
+        
           </div>         
         </div>
-  
+
+        <footer id="footer">
+          <div class="footer-top">
+            <div class="container">
+              <div class="row">
+      
+                <div class="col-lg-3 col-md-6">
+                  <div class="footer-info">
+                    <h3>Baloshop</h3>
+                    <p>
+                      273 An D. Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh 700000<br><br>
+                      <strong>Phone:</strong> +84799721539<br>
+                      <strong>Email:</strong> anhtuhanam1@gmail.com<br>
+                    </p>
+                    <div class="social-links mt-3">
+                      <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                      <a href="https://www.facebook.com/nong.than.944" class="facebook"><i class="bx bxl-facebook"></i></a>
+                      <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                      <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-2 col-md-6 footer-links">
+                  <h4>VỀ CHÚNG TÔI</h4>
+                  <ul>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Trang Chủ</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Giới Thiệu</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Bán Chạy</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Tin Tức</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Liên Hệ</a></li>
+                  </ul>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 footer-newsletter">
+                  <h4>BÀI VIẾT MỚI</h4>
+                    <ul class="list-menu">
+                      <li class="item-blog">
+                        <a class="thumb" href="">
+                          <img width="100" height="auto" src="https://bizweb.dktcdn.net/100/445/950/articles/cach-chon-size-balo-chong-soc-cho-laptop.jpg?v=1670471038993" alt="">
+                        </a>
+                        <div class="info">
+                          <div class="enti-title">
+                            <a href="">Cách chọn size balo chống sốc cho laptop chuẩn nhất</a>
+                          </div>
+                          <p class="post-time">02/12/2022</p>
+                        </div>
+                      </li>
+      
+                      <li class="item-blog">
+                        <a class="thumb" href="">
+                          <img width="100" height="auto" src="https://bizweb.dktcdn.net/100/445/950/articles/top-tui-xach-nu-deo-cheo-han-quoc-cuc-xin.jpg?v=1667355040380" alt="">
+                        </a>
+                        <div class="info">
+                          <div class="enti-title">
+                            <a href="">Top túi xách nữ đeo chéo Hàn Quốc cực xịn cho các...</a>
+                          </div>
+                          <p class="post-time">28/11/2022</p>
+                        </div>
+                      </li>
+      
+                      <li class="item-blog">
+                        <a class="thumb" href="">
+                          <img width="100" height="auto" src="https://bizweb.dktcdn.net/100/445/950/articles/top-tui-deo-cheo-han-quoc-hot-nhat-2022.jpg?v=1668046946223" alt="">
+                        </a>
+                        <div class="info">
+                          <div class="enti-title">
+                            <a href="">Top túi đeo chéo Hàn Quốc hot nhất 2022</a>
+                          </div>
+                          <p class="post-time">14/11/2022</p>
+                        </div>
+                      </li>
+                    </ul>
+      
+                </div>
+      
+                <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>CHÍNH SÁCH</h4>
+                  <ul>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Chính Sách Bảo Hành</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Chính Sách Vận Chuyển</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Chính Sách Đổi Trả</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Chính Sách Bảo Mật</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Phương Thức Thanh Toán</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Hướng Dẫn Mua Hàng</a></li>
+                  </ul>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+      
+          <div class="container">
+            <div class="copyright">
+              Từ khóa thường tìm kiếm: Balo Laptop, Balo Thời Trang, Balo Du Lịch, Balo Thể Thao, Balo Học Sinh, Ví Nam, Ví Nữ
+            </div>
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
+              2022 <a href="#">© BaloShop</a> bảo lưu mọi quyền 
+            </div>
+          </div>
+        </footer><!-- End Footer -->
+
+        <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
   </body>
