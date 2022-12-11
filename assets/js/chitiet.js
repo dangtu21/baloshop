@@ -35,14 +35,14 @@ function ChiTiet(){
 		case '0':
 		{
             var ten = "Balo";
-            var trongluong = new Array(300,400,500,600);
-            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH");
-            var mausac = new Array("green", " yehlow","black", "red")
-            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300") ;
-            var chatlieu = new Array("coton", "vai", "giay", "nuoc")
-			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2");
+            var trongluong = new Array(300,400,500,600,400);
+            var thuonghieu = new Array("NIKE","LOVE","PUMA","SEARCH","Carhartt Wip","NIKE","LOVE","PUMA","SEARCH","Carhartt Wip");
+            var mausac = new Array("green", " yehlow","black", "red","Brown","green", " yehlow","black", "red","Brown")
+            var kichthuoc= new Array("100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm","100 x 200","200 x 300", "200 x 100", "100 x 300","Height 50cm X Whidth 33cm X Depth 13cm") ;
+            var chatlieu = new Array("coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas","coton", "vai", "giay", "nuoc", "100% Polyester Duck Canvas")
+			var sp = new Array("Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2","Carhartt Philis Backpack","Airette Backpack","Tiro Primegreen Backpack","League Flap Backpack In Signature Jacquard","Foldsack No.2","Carhartt Philis Backpack");
 			
-			var gia = new Array(680,350,4199,850);
+			var gia = new Array(680,350,4199,850,699,680,350,4199,850,699);
 			src += './assets/img/balo/';
 			break;
 		}
@@ -107,7 +107,7 @@ function ChiTiet(){
 		}
 	}
 	var s="";
-	s += '<div class="title"><a href="">Trang Chu</a>/<a href="">'+ ten + '</a></div><div id="content"><div id="photo"><img src="'+src+'balo'+ x +'/1.jpg"  alt="IMG"></div><div id="chitiet"><h1>'+ sp[x] + '</h1><div class="is-divider small"></div><span class="cart-price" style="font-size: 25px;">'+ Number(gia[x]).toLocaleString() +'</span><form class="cart" action="" method="post" enctype="multipart/form-data"><div class="quantity buttons_added"><input type="button" value="-" class="minus button is-form"><input type="number" id="quantity_6387668eae1bd" class="input-text qty text" step="1" min="1" max="9999" name="quantity" value="1" title="SL" size="4" inputmode="numeric"><input type="button" value="+" class="plus button is-form"></div><button type="submit" name="add-to-cart" value="27779" class="single_add_to_cart_button button alt">Thêm vào giỏ hàng</button></form><p>TAI SAO LAI CHON BALOSHOP</p><ol class="lydo"><li>Đại lý chính hãng hơn 30 thương hiệu hàng đầu</li><li>Đổi trả 30 ngày nếu không hài lòng</li><li>Hoàn tiền nếu không hài lòng sản phẩm</li><li>Bảo hành sản phẩm lên đến 01 năm</li> </ol><div class="social-links mt-3 text-center"><a href="https://www.facebook.com/nong.than.944" class="twitter"><i class="bx bxl-twitter"></i></a><a href="https://www.facebook.com/nong.than.944" class="facebook"><i class="bx bxl-facebook"></i></a><a href="https://www.facebook.com/nong.than.944" class="instagram"><i class="bx bxl-instagram"></i></a><a href="https://www.facebook.com/nong.than.944" class="google-plus"><i class="bx bxl-skype"></i></a><a href="https://www.facebook.com/nong.than.944" class="linkedin"><i class="bx bxl-linkedin"></i></a></div></div></div><div id="info"><p>Thông tin</p><table class="thongtin">      <tr><th>TRỌNG LƯỢNG</th><td>'+trongluong[x]+ 'g<td></tr><tr><th>THƯƠNG HIỆU</th><td>'+thuonghieu[x]+ '<td></tr><tr><th>MÀU SẮC</th><td>' + mausac[x] +'<td></tr><tr><th>KÍCH THƯỚC</th><td>'+ kichthuoc[x]+'<td></tr><tr><th>CHẤT LIỆU</th><td>'+chatlieu[x]+'<td></tr></table></div><div id="mota"><p>Mô Tả</p><table><tr><th></th></tr></table></div><div id="sanphamtuongtu"></div>';
+	s += '<div class="title"><a href="">Trang Chu</a>/<a href="">'+ ten + '</a></div><div id="content"><div id="photo"><img src="'+src+'balo'+ x +'/1.jpg"  alt="IMG"></div><div id="chitiet"><h1>'+ sp[x] + '</h1><div class="is-divider small"></div><span class="cart-price" style="font-size: 25px;">'+ Number(gia[x]).toLocaleString() +'$</span><form class="cart" action="" method="post" enctype="multipart/form-data"><div class="quantity buttons_added"><input type="button" value="-" class="minus button is-form"><input type="number" id="quantity_6387668eae1bd" class="input-text qty text" step="1" min="1" max="9999" name="quantity" value="1" title="SL" size="4" inputmode="numeric"><input type="button" value="+" class="plus button is-form"></div><button type="submit" name="add-to-cart" value="27779" class="single_add_to_cart_button button alt">Thêm vào giỏ hàng</button></form><p>TAI SAO LAI CHON BALOSHOP</p><ol class="lydo"><li>Đại lý chính hãng hơn 30 thương hiệu hàng đầu</li><li>Đổi trả 30 ngày nếu không hài lòng</li><li>Hoàn tiền nếu không hài lòng sản phẩm</li><li>Bảo hành sản phẩm lên đến 01 năm</li> </ol><div class="social-links mt-3 text-center"><a href="https://www.facebook.com/nong.than.944" class="twitter"><i class="bx bxl-twitter"></i></a><a href="https://www.facebook.com/nong.than.944" class="facebook"><i class="bx bxl-facebook"></i></a><a href="https://www.facebook.com/nong.than.944" class="instagram"><i class="bx bxl-instagram"></i></a><a href="https://www.facebook.com/nong.than.944" class="google-plus"><i class="bx bxl-skype"></i></a><a href="https://www.facebook.com/nong.than.944" class="linkedin"><i class="bx bxl-linkedin"></i></a></div></div></div><div id="info"><p>Thông tin</p><table class="thongtin">      <tr><th>TRỌNG LƯỢNG</th><td>'+trongluong[x]+ 'g<td></tr><tr><th>THƯƠNG HIỆU</th><td>'+thuonghieu[x]+ '<td></tr><tr><th>MÀU SẮC</th><td>' + mausac[x] +'<td></tr><tr><th>KÍCH THƯỚC</th><td>'+ kichthuoc[x]+'<td></tr><tr><th>CHẤT LIỆU</th><td>'+chatlieu[x]+'<td></tr></table></div><div id="mota"><p>Mô Tả</p><table><tr><th></th></tr></table></div><div id="sanphamtuongtu"></div>';
     
 	document.getElementById('noidung').innerHTML = s;
 }
