@@ -43,7 +43,7 @@ body{
 .form-control{
     width: 100%;
     position: relative;
-    margin-top: 30px;
+    margin-top: 40px;
     border: none !important;
 }
 
@@ -125,11 +125,13 @@ body{
 }
 .sector > .container {
     top:20px;
-    padding: 20px 10px;
-    width: 400px;
+    padding: 30px 10px;
+    width: 370px;
+    height: 85%;
     box-shadow: 2px 2px 2px 2px #bbbbba;
     margin-right: 0px;
     margin-left: 40%;
+    margin-top: 40px;
     
 }
 .sector{
@@ -141,5 +143,5 @@ body{
     
 }
 .container > .form {
-    margin-top: 20px;
+    margin-top: 30px;
 }
